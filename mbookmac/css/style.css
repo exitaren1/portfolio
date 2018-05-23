@@ -1,0 +1,238 @@
+@import url(common.css);
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+
+/*animate*/
+
+#visual {
+    position: relative;
+    height: 485px;
+    overflow: hidden;
+}
+
+.mBanner>li:first-child {
+    left: 0;
+}
+
+.mBanner>li {
+    position: absolute;
+    width: 100%;
+    left: 100%;
+}
+
+.mBanner>li>a {
+    display: block;
+    height: 485px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+}
+
+.banner1>a {
+    background: url(../images/banner1.jpg);
+}
+
+.banner2>a {
+    background: url(../images/banner2.jpg);
+}
+
+.banner3>a {
+    background: url(../images/banner3.jpg);
+}
+
+.banner4>a {
+    background: url(../images/banner4.jpg);
+}
+
+.mBanner>li>a>p {
+    padding-top: 130px;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.mBanner>li>a>span {
+    display: block;
+    margin-top: 80px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.mBtn {
+    position: absolute;
+    z-index: 1000;
+    width: 50px;
+    height: 2px;
+    padding: 0;
+    background-color: #959595;
+    border: 0;
+    text-indent: -99999em;
+    bottom: 35px;
+    left: 50%;
+}
+.mBtn_cu{
+    background-color: #fff;
+}
+.mBtn1 {
+    margin-left: -115px;
+}
+
+.mBtn2 {
+    margin-left: -55px;
+}
+
+.mBtn3 {
+    margin-left: 5px;
+}
+
+.mBtn4 {
+    margin-left: 65px;
+}
+
+.icon {
+    width: 100%;
+}
+
+
+/*contents*/
+
+.icon>ul {
+    text-align: center;
+    height: 100px;
+    width: 100%;
+}
+
+.icon>ul>li {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    /*    padding: 10px;*/
+    margin: 20px 5px;
+}
+
+.icon>ul>li>a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 10px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f5f6f6+0,f4efeb+50,f6eee6+100 */
+    background: rgb(245, 246, 246);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(245, 246, 246, 1) 0%, rgba(244, 239, 235, 1) 50%, rgba(246, 238, 230, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(245, 246, 246, 1) 0%, rgba(244, 239, 235, 1) 50%, rgba(246, 238, 230, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(245, 246, 246, 1) 0%, rgba(244, 239, 235, 1) 50%, rgba(246, 238, 230, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', endColorstr='#f6eee6', GradientType=0);
+    /* IE6-9 */
+    text-align: center;
+    border-left: 1px solid #A59795;
+    border-right: 1px solid #544B4B;
+}
+
+.icon>ul>li>a>img {
+    width: 40%;
+    margin-top: 15%;
+}
+
+.icon>ul>li:nth-child(3)>a>img {
+    width: 45%;
+}
+
+.icon>ul>li>a>span {
+    position: absolute;
+    font-size: 12px;
+    bottom: 13%;
+    left: 50%;
+    margin-left: -24px;
+}
+
+.icon>ul>li>a>span {
+    font-family: 'Jeju Gothic', sans-serif;
+}
+
+.best {
+    clear: both;
+}
+
+.best>h3 {
+    letter-spacing: 3px;
+/*    background-color: #7a6e6e;*/
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.b_inner {    
+    height: 110px;
+    overflow: hidden;
+}
+.b_inner>ul{
+    width: 10000px;
+    height: 110px;
+}
+.b_inner li>img{
+    display: block;
+    height: 50%;
+    margin-top: 25px;
+}
+.b_inner li>img:nth-of-type(1){
+    float: left;
+    margin-left: 10px;
+}
+.b_inner li>img:nth-of-type(2){
+    float: right;
+    margin-right: 10px;
+}
+.b_inner li{
+    float: left;
+    width: 100vw;
+    max-width: 480px;
+    height: 110px;
+    background-color: #fff;
+}
+.b_inner li:first-child{
+    left: 0;
+}
+.b_inner li>a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.rank {
+    line-height: 110px;
+    font-size: 30px;
+    font-family: 'Jeju Gothic', sans-serif;
+    padding: 0 30px;
+    float: left;
+}
+
+.b_inner li>a>img {
+    height: 80%;
+    margin-top: 10px;
+    float: left;
+}
+
+.b_inner li h4 {
+    font-size: 14px;
+    padding-top: 30px;
+    padding-left: 50%;
+}
+
+.auth {
+    font-size: 12px;
+    margin-top: 20px;
+    padding-left: 50%; 
+}
+
+/*@media all and (max-width)*/

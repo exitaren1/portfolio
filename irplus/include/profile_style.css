@@ -1,0 +1,84 @@
+/*전체공통*/
+.p_center {max-width: 1280px; margin: 0 auto; height: 100%; position: relative;}
+
+/*Layout*/
+header { height:118px; width: 100%;}
+header h1{display: block; padding: 60px 0 0 60px; width: 114px;height: 50px; float: left;}
+header a {display: block;width: 100%;height: 100%;}
+
+.topmenu { float: right; margin-right:60px;}
+.topmenu li { float:left; margin-top:65px; margin-left:130px;}
+.topmenu li a { font-size:20px }
+.topmenu li:before { content:""; display:block; width:0px; height:4px; background:#000; transition:0.7s; }
+.topmenu li:hover:before { width:16px; }
+.topmenu li.top_on:before { content:""; display:block; width:16px; height:4px; background:#000; }
+
+footer { position:absolute; bottom:0; z-index: 8000; width: 100%; height: 84px; }
+.footer_bg { position:absolute; bottom:0; z-index: 5000; width: 100%; height: 84px; background-color: #2e2e2e;}
+.copyright { color:#fff; float: left; }
+.copyright div { margin-top: 26px; }
+.copyright address { margin-top: 5px; }
+.contact { color:#fff; float: right; }
+.contact li { float:left; height:30px; margin-top: 26px; margin-left: 35px; }
+.contact li:nth-child(1) {width:110px; background:url(../images/ico_contact1.png) no-repeat 5% center; line-height:30px; text-indent:40px}
+.contact li:nth-child(2) {width:110px; background:url(../images/ico_contact2.png) no-repeat 5% center; line-height:30px; text-indent:40px}
+.contact li:nth-child(3) {width:150px; background:url(../images/ico_contact3.png) no-repeat 5% center; line-height:30px; text-indent:40px}
+
+/*Section 공통*/
+
+/*section1*/
+.intro { max-width: 1280px; margin: 0 auto; }
+.p_top { margin:0 60px; padding:180px 0 135px; border-bottom:1px solid #000; }
+.p_top h2 { display: block; float:left; font-weight:normal; font-size: 50px; }
+.p_top div { float: left; margin-left:180px; font-size:16px; line-height:38px; font-weight:600; }
+
+.comment { margin:150px 60px 0; height:50px; }
+.comment_head, .comment_list a { display:block; color:#00a7ea; font-weight:bold; font-size:16px; }
+.comment_head { float:left; width:130px; background:url(../images/ico_brand.gif) no-repeat 90% center; margin-top:5px; }
+.comment_list { float: right; }
+.comment_list li { float:left; margin-left:140px; }
+.comment_list li:first-child { margin-left:0px; }
+.comment_list li:before { content:""; display:block; width:0px; height:4px; background:#00a7ea; transition:0.7s; }
+.comment_list li:hover:before { width:16px; }
+/*section2*/
+.section { position: relative;}
+/*.detail { position: relative; width:1280px; margin:0 auto;}*/
+.detail h2 { font-size:120px; text-align:center; padding-top:8%; vertical-align:top; }
+.expl { text-align:center; position:absolute; top:50%; margin-top:-42px; font-size:16px; line-height:28px; font-weight:600; width:100%; }
+.con_list { position:absolute;  bottom:20%; left:50%; font-size:14px; }
+.con_list li { background:url(../images/bg_con_list.png) no-repeat 0% center; padding-left: 20px; margin-top: 20px; }
+.section2 .con_list { margin-left:-135px; }
+.section3 .con_list { margin-left:-176px; }
+.section4 .con_table { position:absolute; bottom:20%; left:50%; margin-left:-275px;  }
+
+/*section5 fullpage JS 오류로 다시 해야함*/
+
+.section5 h2 { font-size:120px; text-align:center; padding-top:10%; vertical-align:top; }
+.con_award { padding-top:27%; }
+.con_award>ul>li { position:relative; height:20px; padding-bottom:3px; }
+.con_award>ul>li>ul { height:20px; }
+.con_award .award_head { float:left; position:absolute; left:30%; display:block; background:url(../images/bg_con_list.png) no-repeat 0% center; padding-left: 20px; font-size:16px; font-weight:bold; height:20px; }
+.con_award .award_con { position:absolute; left:45%; font-size:16px; }
+.con_award .line { float:left; position:absolute; height:inherit; background:url(../images/bg_con_award.gif) repeat-x 0 45%; right:56%; }
+.con_award li:nth-child(1) .line {  width: 50px; }
+.con_award li:nth-child(2) .line { width: 117px; }
+.con_award li:nth-child(3) .line { width: 40px; }
+.con_award li:nth-child(4) .line { width: 106px; }
+.con_award li:nth-child(5) .line { width: 117px; }
+.con_award li:nth-child(6) .line { width: 117px; }
+.con_award li:nth-child(7) .line { width: 70px; }
+.con_award li:nth-child(8) .line { width: 90px; }
+.con_award li:nth-child(9) .line { width: 106px; }
+.con_award li:nth-child(10) .line { width: 117px; }
+
+.top { position:absolute; left:50%; margin-left:-20px; top:89%; cursor:pointer; }
+.blue_line1, .blue_line2 { position:absolute; z-index:500; background-color:#00a7ea; width: 2px; top:0; left:50%; margin-left:-1px; }
+.blue_line1 { height:12%; top:30%; }
+.blue_line2 { height:6%; top:57%; }
+
+
+
+
+
+
+
