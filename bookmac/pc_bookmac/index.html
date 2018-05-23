@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>bookmac</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bookmac_main_banner.js"></script>
+</head>
+
+<body>
+    <aside>
+        <header class="pc">
+            <h1 class="logo">
+                <a href="#"><img src="images/logo.png" alt="bookmac logo"></a>
+            </h1>
+            <ul class="nav">
+                <li><a href="sub_html/sub_html.html">추천도서</a></li>
+                <li><a href="#">내서재</a></li>
+                <li><a href="#">북맥보드</a></li>
+                <li><a href="#">모임</a></li>
+                <li><a href="#">북콘텐츠</a></li>
+            </ul>
+        </header>
+    </aside>
+    <article id="container">
+        <h2 class="blind">배너, 본문</h2>
+        <div id="visual">
+            <button class="button btn1">1</button>
+            <button class="button btn2">2</button>
+            <button class="button btn3">3</button>
+            <button class="button btn4">4</button>
+            <ul class="banner">
+                <li class="slider1">
+                    <div>
+                        <p>읽고 싶은 건 많지만,<br>모든 책을 다 읽을 수는 없기에</p>
+                        <img src="images/logo.png" alt="bookmac logo">
+                        <a href="#">북맥의 도서추천에 대해 더 알아보기</a>
+                    </div>
+                </li>
+                <li class="slider2">
+                    <div>
+                        <p>어떤 책을 얼마나 읽어왔는지<br>기억보다 정확한 기록을</p>
+                        <img src="images/logo.png" alt="bookmac logo">
+                        <a href="#">북맥의 서재에 대해 더 알아보기</a>
+                    </div>
+                </li>
+                <li class="slider3">
+                    <div>
+                        <p>책장 밖에서 만날 수 있었던,<br>그 책의 또다른 이야기</p>
+                        <img src="images/logo.png" alt="bookmac logo">
+                        <a href="#">북맥의 콘텐츠 추가에 대해 더 알아보기</a>
+                    </div>
+                </li>
+                <li class="slider4">
+                    <div>
+                        <p>한 사람만을 위해 쓰인 책은 없기에,<br>같이 읽는 가치를.</p>
+                        <img src="images/logo.png" alt="bookmac logo">
+                        <a href="#">북맥의 북친/공유에 대해 더 알아보기</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </article>
+    <section id="contents">
+       <button class="close_btn"></button>
+        <h3 class="blind">member, search, event, sns</h3>
+        <section class="con1 clearfix">
+            <h4 class="blind">member, search</h4>
+            <ul class="mem">
+                <li><a href="#">회원가입</a></li>
+                <li><a href="#">로그인</a></li>
+            </ul>
+            <form name="search" id="search">
+                <label for="s_text" class=blind></label>
+                <input type="text" title="검색어를 입력하세요."  placeholder="작가, 책이름, 출판사" id="s_text">                
+            </form>
+            <button class="s_ico"><img src="images/ico_search.png" alt="돋보기"></button>
+        </section>
+        <section class="con2">
+            <div class="box1">
+                <h4 class="recommend">장르별 추천</h4>
+                <label class=blind for="recom"></label>
+                <select name="recommend" id="recom">
+                    <option value="전체">전체</option>
+                    <option value="문학">문학</option>
+                    <option value="과학">과학</option>
+                    <option value="인문">인문</option>
+                    <option value="경영">경영</option>
+                    <option value="예술">예술</option>
+                    <option value="취미">취미</option>
+                    <option value="기타">기타</option>
+                </select>
+            </div>
+            <div class="box2">
+                <h4 class="event">북드림 이벤트</h4>
+                <div class="b_event">
+                    <p>
+                        <a href="#"><img src="images/book.jpg" alt="흔들리며 흔들거리며"></a>
+                    </p>
+                    <p>1월 1일<br>~<br>1월 8일</p>
+                    <p>회원 가입 후, 서재에 이 책을 담은<br>고객님중 열 분을 추첨하여 해당서적을<br>선물해드립니다.</p>
+                </div>
+            </div>
+            <div class="box3">
+                <h4 class="blind">app</h4>
+                <div class="app">
+                    <a href="#">
+                        <img src="images/ico_google.png" alt="구글 플레이스토어">
+                        <span>안드로이드용<br>APP 다운받기</span>
+                    </a>
+                </div>
+                <div class="ios">
+                    <a href="#">
+                        <img src="images/ios.png" alt="iOS">
+                        <span>iOS용<br>APP 어플출시</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="con3">
+            <h4 class="blind">SNS</h4>
+            <ul class="sns">
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+                <li>
+                    <a href="#">Twitter</a>
+                </li>
+                <li>
+                    <a href="#">Facebook</a>
+                </li>
+            </ul>
+        </section>
+    </section>
+    <footer>
+            <ul class="footMenu">
+                <li>
+                    <a href="#">이용약관</a>
+                </li>
+                <li>
+                    <a href="#">개인정보취급방침</a>
+                </li>
+                <li>
+                    <a href="#">서비스소개</a>
+                </li>
+                <li>
+                    <a href="#">도움말</a>
+                </li>
+            </ul>
+            <p class="copy">본 사이트는 포트폴리오 용도로<br> 만들어진 가상 사이트 입니다.<br>모든 콘텐츠의 저작권은 Starnation Inc.와 해당 사이트에 있습니다.<br>Design By 신세현</p>
+        </footer>
+</body>
+</html>

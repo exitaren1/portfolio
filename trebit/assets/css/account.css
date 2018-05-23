@@ -1,0 +1,757 @@
+@charset "UTF-8";
+/* accountBefore */
+.content-before .panel-body .btn-block,
+.content .panel .panel-footer .btn-w70p {
+  width: 70%;
+  margin: 0 auto;
+}
+.content-before .panel-body .btn-block .btn-md,
+.content .panel .panel-footer .btn-w70p .btn-md {
+  height: 47px;
+  font-size: 14px;
+}
+/* account */
+.panel .panel-heading {
+	border-bottom: 0;
+}
+.container-acnt .tab-nav {
+	width: 100%;
+}
+.container-acnt .tab-nav > ul > li {
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+.container-acnt .tab-nav > ul > li > a {
+	display: inline-block;
+	padding: 10px 0 13px 0;
+}
+.container-acnt .tab-nav > ul > li.active > a,
+.container-acnt .tab-nav > ul > li > a:hover,
+.container-acnt .tab-nav > ul > li > a:active {
+	font-weight: 600;
+	color: #ab7736;
+}
+.container-acnt .content {
+	max-width: 1080px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	font-size: 10px;
+}
+.container-acnt .content .panel .panel-myinfo-heading {
+  border-bottom: none;
+}
+.container-acnt .content .panel .panel-account-heading {
+  padding: 30px;
+}
+.container-acnt .content .panel .panel-heading h2,
+.container-acnt .content .panel .panel-body2 h2 {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  color: #000;
+}
+.container-acnt .content .panel .panel-heading p {
+  padding-top: 18px;
+  font-size: 14px;
+  line-height: 1.44;
+  text-align: left;
+  color: #484848;
+}
+.container-acnt .content .panel .panel-heading p span {
+  font-weight: 500;
+  color: #fb8800;
+}
+.content .panel .panel-body {
+  padding: 0 30px
+}
+.content .panel .panel-body .form-group {
+  overflow: hidden;
+  border-top: 1px solid #e7e7e7;
+}
+.content .panel .panel-body .form-text label {
+  width: 100%;
+  display: block;
+  float: left;
+  padding: 20px 0;
+  font-size: 14px;
+  color: #333;
+}
+.content .panel .panel-body .form-text p {
+  padding: 20px 0;
+  font-size: 14px;
+  color: #333;
+  font-weight: 500;
+}
+.content .panel .panel-body .form-text p span {
+  font-size: 14px;
+  margin-left: 10px;
+}
+.container-acnt .content .panel .panel-footer {
+	border-top: 0;
+  padding: 0px 30px 50px;
+}
+.container-acnt .content .panel .panel-footer .form-group {
+  border-top: 1px solid #e7e7e7;
+  padding: 0;
+}
+.content .panel .panel-footer .form-pass{
+  margin: 15px 0;
+}
+.content .panel .panel-footer .form-pass label {
+  width: 100%;
+  display: block;
+  float: left;
+  padding: 16px 0;
+  font-size: 14px;
+  color: #333;
+}
+.content .panel .panel-footer .form-pass input {
+  display: block;
+  height: 40px;
+  border: solid 1px #ddd;
+  font-size: 14px;
+  text-indent: 19px;
+}
+.content .panel .panel-footer .form-pass input {
+  width: 100%;
+}
+.content .panel .panel-footer .form-pass input::-moz-placeholder {
+	color: #979797;
+	opacity: 1;
+}
+.content .panel .panel-footer .form-pass input:-ms-input-placeholder {
+	color: #979797;
+}
+.content .panel .panel-footer .form-pass input::-webkit-input-placeholder {
+	color: #979797;
+}
+.content .panel .panel-footer .form-pass input.new-pass {
+  margin-top: 6px;
+}
+.content .panel .panel-footer .form-pass input.new-pass-confirm {
+  margin-top: 10px;
+}
+.content .panel .panel-footer .form-pass p {
+  font-size: 14px;
+  color: #7a7a7b;
+  padding: 10px 0;
+}
+.content .panel .panel-footer .form-pass + .btn-block{
+
+}
+.content .panel-footer .btn-block .btn-md {
+  width: 100%;
+  height: 40px;
+  font-size: 18px;
+}
+.content .panel .panel-footer .btn-block {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e7e7e7;
+}
+.content .panel .panel-footer .btn-bottom {
+  border-bottom: 0 !important;
+}
+.content .panel .panel-footer .btn-block .panel-body .step-confirm{
+  padding: 28px 0 77px;
+}
+.content .panel .panel-footer .btn-block .btn-fix-width {
+  font-size: 14px;
+}
+.content .panel .panel-footer .btn-block .btn-fix-width + .btn-fix-width {
+  margin-top: 10px;
+}
+.content .panel .panel-footer .btn-block .btn-fix-width + p{
+  padding: 10px 0;
+  font-size: 14px;
+  color: #7a7a7b;
+}
+.form-wrap .form-group {
+	padding-top: 20px;
+}
+.form-wrap .form-group label {
+	padding-bottom: 5px;
+}
+.form-wrap .form-group strong {
+	display: block;
+	font-size: 16px;
+	line-height: 1.4;
+}
+.container-history .content {
+	max-width: 1080px;
+	width: 100%;
+	margin: 0 auto;
+}
+.modal-alertoption-body {
+  position: relative;
+  margin-top : 25px;
+  font-size: 14px;
+	color: #232121;
+	text-align: center;
+	line-height: 25px;
+  border: 1px solid #d8d8d8;
+}
+.container-acnt .content .panel .modal-alertoption-body .form-group{
+  padding: 5px 0;
+  border-bottom: 1px solid #d8d8d8;
+  border-top: 0;
+  overflow: hidden;
+}
+.container-acnt .content .panel .modal-alertoption-body .form-group:last-child{
+  border-bottom: none;
+}
+.container-acnt .content .panel .modal-alertoption-body .form-group label{
+  font-size: 14px;
+  padding-left: 20px;
+  vertical-align: middle;
+}
+.modal-alertoption-body .form-group div input[type=checkbox] {
+  display: none;
+}
+.modal-alertoption-body .form-group div span.switch-style{
+  float: right;
+	display: inline-block;
+	position: relative;
+  top: 0;
+  right: 10px;
+  width: 85px;
+	height: 30px;
+	background: #fff;
+  -webkit-border-radius: 0.8em;
+  border-radius: 15px;
+  border: 1px solid #424242;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+	cursor: pointer;
+}
+.modal-alertoption-body .form-group div span.switch-style:before {
+  display: block;
+  content: '';
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  width: 22px;
+  height: 22px;
+  background-color: #413f3d;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+.modal-alertoption-body .form-group div input[type=checkbox]:checked + .switch-style {
+  background-color: #413f3d;
+}
+.modal-alertoption-body .form-group div input[type=checkbox]:checked + .switch-style:before {
+  background-color: #fff;
+  left:60px;
+}
+.modal-alertoption-body .form-group div span.switch-style .switch-text{
+  display: inline-block;
+  float: left;
+  width: 50%;
+  padding: 2px 0;
+  font-size: 12px;
+  text-align: center;
+}
+.modal-alertoption-body .form-group div span.switch-style .switch-text.on{
+  color: #fff;
+}
+.modal-alertoption-body .form-group div span.switch-style .switch-text.off{
+  color: #413f3d;
+}
+/*   인증센터   */
+.panel-body .step-confirm{
+  overflow: hidden;
+}
+.panel-body .step-confirm .step-section{
+  float: left;
+  text-align: center;
+  width: 150px;
+}
+.panel-body .step-confirm .step-bar{
+  float: left;
+  display: block;
+  height: 2px;
+  width: 50px;
+  background-color: #898989;
+  margin-top: 74px;
+}
+.panel-body .step-confirm .step-bar-add{
+  float: left;
+  display: block;
+  height: 19px;
+  width: 19px;
+  background: url(../images/plus.png) no-repeat;
+  margin: 66px 18px 0 13px;
+}
+.panel-body .step-confirm .step-section>div{
+  box-sizing: border-box;
+  border: solid 2px #ffb558;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+.panel-body .step-confirm .step-section .round-box1{
+  background: url(../images/ico_confirm_1.png) no-repeat center 38px;
+}
+.panel-body .step-confirm .step-section .round-box2{
+  background: url(../images/ico_confirm_2.png) no-repeat center 38px;
+}
+.panel-body .step-confirm .step-section .round-box3{
+  background: url(../images/ico_confirm_3.png) no-repeat 55% 38px;
+}
+.panel-body .step-confirm .step-section .round-box4{
+  background: url(../images/ico_confirm_4.png) no-repeat center 38px;
+}
+.panel-body .step-confirm .step-section>div.active{
+  border-color: #7e7e7e;
+}
+.panel-body .step-confirm .step-section>div span{
+  font-size: 14px;
+  font-weight: 500;
+  color: #484848;
+  display: inline-block;
+  width: 100%;
+  margin-top: 99px;
+}
+.panel-body .step-confirm .step-section button{
+  color: #fff;
+  font-size: 14px;
+  width: 99px;
+  height: 38px;
+  border-radius: 19px;
+  background-color: #000;
+  margin: 16px 0;
+}
+.panel-body .step-confirm .step-section button.active{
+  background-color: #c3c3c3;
+  border: solid 1px #d2d2d2;
+  cursor: not-allowed
+}
+.panel-body .step-confirm .step-section button.btn-submit{
+  background-color: #fb8800;
+}
+.m-panel-body table td button.btn-submit{
+  background-color: #d9534f;
+}
+.panel-body .step-confirm .step-section a{
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+  width: 84px;
+  height: 22px;
+}
+.panel-body .step-confirm .step-section a:hover{
+  border-bottom: 1px solid #d2d2d2;
+}
+.panel-body2{
+  padding: 20px 30px;
+}
+.panel-body2 .otp-notice h3{
+  font-size: 14px;
+  color: #000;
+  margin: 15px 0 19px;
+}
+.panel-body2 .otp-notice ul li{
+  font-size: 14px;
+  line-height: 1.64;
+  color: #484848;
+}
+/* 실명확인 계좌등록 모바일 */
+.m-panel-body{ padding: 20px 30px;}
+.m-panel-body table {border: solid 1px #cccccc; border-bottom: 0;}
+.m-panel-body table th{color: #666}
+.m-panel-body table th,
+.m-panel-body table td{
+  height: 55px;
+  font-size: 12px;
+  border-bottom: solid 1px #cccccc;
+}
+.m-panel-body table td span{line-height: 16px;color: #000;}
+.m-panel-body table td a{text-decoration: underline; color: #000;}
+.m-panel-body table td button{
+  width: 80px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #000;
+  font-family: NotoSansCJKkr;
+  font-weight: 600;
+  color: #fff;
+}
+.m-panel-body table td button.active{
+  background-color: #c3c3c3;
+}
+/* 실명확인 계좌등록 */
+.content .panel .panel-body .form-agree .form-checkbox form{
+  width: 100%;
+  float: left;
+  margin: 0 0 25px;
+  text-align: center;
+}
+.content .panel-body .form-account .form-select label{
+  font-size: 16px;
+  display: block;
+  padding: 16px 0;
+  float: left;
+}
+.content .panel-body .form-account .form-select select.form-control{
+  border: 1px solid #ddd;
+  margin: 15px 0 15px;
+  width: 100%;
+  font-size: 16px;
+}
+.content .panel-body .form-account .form-text label.acc2-label{
+  padding: 16px 0;
+}
+.content .panel .panel-body .form-agree .agreement{
+  font-size: 14px;
+}
+.content .panel .panel-body .form-agree input[type="checkbox"]{
+  margin-right: 10px;
+  width: 17px;
+  height: 17px;
+  vertical-align: middle;
+}
+.content .panel .panel-body .form-agree label{
+  font-size: 16px;
+  margin: 20px 0;
+  vertical-align: middle;
+}
+.content .panel .panel-body .form-agree button{
+  display: block;
+  color: #fff;
+  font-size: 14px;
+  width: 99px;
+  height: 38px;
+  border-radius: 19px;
+  margin: 0 auto;
+  background-color: #666;
+}
+.content .panel .panel-footer .btn-block .btn-md2{
+  margin: 0 auto !important;
+}
+/* 실명확인 계좌등록 PAGE2 */
+.container-acnt .content .panel .panel-footer .before_send{
+  border-top: 0;
+  padding-top: 0;
+  padding-bottom: 20px;
+}
+.container-acnt .content .panel .panel-footer .after-send{
+  padding-top: 5px;
+  padding-bottom: 0;
+}
+.content .panel-body .form-account .form-text input{
+  display: block;
+  width: 100%;
+  height: 40px;
+  border: solid 1px #ddd;
+  font-size: 16px;
+  font-weight: 500;
+  text-indent: 19px;
+  margin: 15px 0;
+}
+.content .panel .panel-footer .btn-block .btn-md3{
+  margin: 0;
+  width: 100%;
+  height: 50px !important;
+}
+.content .panel .panel-footer .btn-block .btn-md4{
+  margin: 0;
+  width: 100%;
+  height: 50px !important;
+}
+.content .panel .panel-footer .account-notice{
+  font-size: 14px;
+  line-height: 1.44;
+  color: #484848;
+  clear: both;
+  padding-left: 0;
+}
+.content .panel .panel-footer .after-send form{
+  width: 100%;
+}
+.content .panel .panel-footer .after-send .account-notice{
+  border-bottom: 1px solid #e7e7e7;
+}
+.content .panel .panel-footer .after-send form input{
+  display: block;
+  width: 100%;
+  height: 50px;
+  border: solid 1px #ddd;
+  font-size: 16px;
+  font-weight: 500;
+  text-indent: 19px;
+  margin: 11px 0;
+}
+/*   OTP 등록   */
+.container-acnt .content-otp-top .panel .panel-body span{
+  display: block;
+  font-size: 14px;
+}
+.container-acnt .content-otp-top .panel .panel-body span b{
+  font-weight: normal;
+}
+.container-acnt .content-otp-top .panel .panel-body p{
+  font-size: 14px;
+}
+.container-acnt .content-otp-top .panel .panel-body b.text-money{
+  font-weight: 400;
+}
+.content-otp-bottom .content-left .form-group .input-group .form-control{
+  border: 1px solid #ddd;
+}
+.container .content .panel .panel-body .otp-qr-info p:nth-of-type(1){
+  padding: 50px 0 10px;
+  font-weight: 600;
+}
+.container .content .panel .panel-body .otp-qr-info p:nth-of-type(2){
+  padding: 10px 0 50px;
+  font-weight: normal;
+}
+.content .content-left{
+  padding: 30px;
+}
+.content-otp-bottom .content-left .qr-box{
+  width: 100%;
+}
+.content-otp-bottom .content-left .qr-box>div{
+  width: 115px;
+  height: 115px;
+  margin: 0 auto;
+}
+.content-otp-bottom .content-left .form-group{
+	width: 100%;
+}
+.content-otp-bottom .content-left .input-group{
+	width: 100% !important;
+}
+.content-otp-bottom .content-left .form-group .input-group .form-control + .input-group-btn button {
+  padding: 10px 15px 12px 15px;
+  font-size: 14px;
+}
+.content .warning strong {
+	display: inline-block;
+	padding-left: 30px;
+	background: url('../images/icon-warning.png') no-repeat left center;
+	background-size: 20px;
+	font-size: 16px;
+	line-height: 1.4;
+	color: #000;
+}
+.content .warning p,
+.content .warning dl {
+	margin-top: 15px;
+	line-height: 1.4;
+}
+.content .warning dl dt {
+	font-weight: 600;
+}
+.content-right .warning dl {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1em;
+}
+.content-right .warning dl dd{
+	display: inline-block;
+	line-height: 1.4;
+	padding-top: 5px;
+}
+.content-right .warning dl dd:before {
+  display: inline-block;
+  content: "-";
+  width: 1em;
+  margin-left: -1em;
+}
+/* 회원등급 */
+.content .table-panel{
+  padding-bottom: 40px;
+}
+.content .table-panel-bottom{
+  padding-bottom: 72px;
+  margin-top: -50px;
+}
+.content .table-panel .table-yellow thead tr{
+  background-color: #a0a1a3;
+}
+.content .table-panel .table th,
+.content .table-panel .table td{
+  border-collapse:collapse;
+  font-size: 13px;
+  padding: 14px 0;
+}
+.content .table-panel .table-yellow th,
+.content .table-panel .table-yellow td{
+  border-left:1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+}
+.content .table-panel .table-yellow th:last-child,
+.content .table-panel .table-yellow td:last-child{
+  border-right:1px solid #f1e8d7;
+}
+.content .table-panel .table-yellow tbody th{
+  color: #e17d07;
+  font-weight: 500;
+}
+.content .table-panel .table-yellow tbody th.border-top{
+  border-top:1px solid #f1e8d7;
+}
+.content .table-panel .table-yellow tfoot td,
+.content .table-panel .table-yellow tfoot td:last-child{
+  border: 0;
+}
+.content .table-panel .table-yellow td{
+  color: #666;
+}
+/*  인증 단계 및 입출금한도 */
+.panel-heading h1{
+  font-size: 15px;
+  font-weight: 500;
+  padding: 23px 0 0;
+  margin-left: -10px;
+}
+.panel-body .table-mobile h3{
+  font-size: 14px;
+  color: #555;
+  font-weight: 500;
+  margin: 25px 0 15px;
+}
+.panel-body .table-inout{
+  overflow: hidden;
+}
+/* 접속정보 */
+.container .tbl-100 .panel .panel-body{padding: 10px 0;}
+.table-responsive, .table-panel-bottom{display: none;}
+.table-mobile, .mb-view{display: block;}
+.tbl-100 .panel .panel-body .table tbody tr th,
+.tbl-100 .panel .panel-body .table tbody tr td{
+  padding: 10px 5px;
+  border-bottom: solid 1px #e0e0e0;
+  font-size: 12px;
+}
+@media (min-width: 768px) {
+  .container-acnt .content .panel .panel-myinfo-heading, .panel-body2{padding: 47px 53px 50px 51px;}
+  .table-responsive, .table-panel-bottom, .pc-view{display: block;}
+  .mb-view, .table-mobile{display: none;}
+  .container .tbl-100 .panel .panel-body{padding: 0 50px;}
+  .tbl-100 .panel .panel-body .table tbody tr th,
+  .tbl-100 .panel .panel-body .table tbody tr td{
+    padding: 16px 5px;
+  }
+  .container-acnt .content .panel .panel-account-heading{padding: 47px 53px 30px 51px;}
+  .container-acnt .content .panel .panel-heading h2,
+  .container-acnt .content .panel .panel-body2 h2{font-size: 22.9px;}
+  .container-acnt .content-otp-top .panel .panel-heading {border-bottom: 0;}
+  .container-acnt .content-otp-top .panel .panel-body p{font-size: 16px;}
+	.container-acnt .tab-nav {width:auto; padding-top:3px;}
+	.container-acnt .tab-nav > ul > li {width:130px;}
+	.container-acnt .tab-nav > ul > li > a {width:100%; font-size: 16px;}
+	.container-acnt .content{max-width:1080px;}
+	.container-acnt .content .panel .panel-heading .panel-title{display: block;}
+  .container-acnt .acnt-emal strong{font-size: 24px;}
+  /* OTP 등록 */
+	.container-otp .content.otpset .panel .panel-heading small{float:right; padding-top:5px; font-size:14px;}
+  .content-otp-bottom .content-left .qr-box > div{width: 185px; height: 185px; margin: 20px auto;}
+  .content-otp-bottom .content-left .form-group .input-group .form-control{padding: 7px 12px 7px 12px;}
+  .content-otp-bottom .content-left .form-group .input-group .form-control + .input-group-btn button{padding: 10px 20px 12px 20px;}
+  .content-otp-bottom .otp-qr-info button{height: 50px;width: 50px;margin-left: -3px; margin-top: 0;}
+  .content-otp-bottom .content-right h4{font-size: 16px; font-weight: 500; color: #000}
+  .content-otp-bottom .content-right p{font-size: 14px; color: #666}
+  .content-otp-bottom .content-right p:nth-of-type(1){padding-top: 30px;}
+  .content-otp-bottom .content-right p:nth-of-type(2){padding-top: 5px;}
+  .content .content-left{
+    padding: 30px 60px 50px;
+  }
+  /* OTP 등록 end */
+  .content .panel-body .form-account .form-select select.form-control{margin: 15px 0 15px 214px;width: 390px;}
+  .content .panel .panel-body .form-text label,
+  .content .panel .panel-footer .form-pass label{
+    width: 214px;
+    padding-left: 20px;
+    font-size: 14px;
+  }
+  .content .panel .panel-footer .form-pass label{
+    padding: 15px 0 150px;
+    padding-left: 20px;
+  }
+  .content .panel .panel-body .form-text p{
+    font-size: 16px;
+  }
+  .content .panel .panel-body .form-agree .form-checkbox form{
+    width: 230px;
+    margin: 23px 0 0;
+  }
+  .content .panel .panel-body .form-agree button {margin: 20px auto 0;}
+  .content .panel-body .form-account .form-text input,
+  .content .panel .panel-footer .after-send form input,
+  .content .panel .panel-footer .form-pass input{
+    width: 390px;
+    font-size: 16px;
+    height: 50px;
+  }
+  .content .panel .panel-footer .after-send form input{
+    margin-left: 214px;
+  }
+  .content .panel .panel-footer .after-send form{
+    width: 400px;
+  }
+  .content .panel .panel-footer .btn-block .btn-md{
+    margin-left: 214px;
+  }
+  .content .panel .panel-footer .btn-block .btn-fix-width{
+    width: 390px;
+    height: 50px;
+    font-size: 16px;
+  }
+  .content .panel .panel-footer .btn-block .btn-fix-width + p{
+    margin-left: 214px;
+  }
+  .content .panel .panel-body .form-agree button{
+    display: inline-block;
+    margin: 16px 0 0 25px;
+  }
+  .content .panel .panel-footer .account-notice{
+    padding-left: 214px;
+  }
+  .content .table-panel .panel-heading .panel-title h2{
+    color: #000;
+    font-size: 22.9px;
+  }
+  .content .table-panel .table tbody th.border-top{
+    border-top:0;
+  }
+  .content .panel .panel-body {
+    padding: 0 53px 0 51px;
+  }
+  .container-acnt .content .panel .panel-footer {
+    padding: 0px 53px 30px 51px;
+  }
+  .container-acnt .content .panel .modal-alertoption-body .form-group{
+    padding: 15px 0;
+  }
+  .modal-alertoption-body {
+    width: 392px;
+    margin : 25px 0 0 214px;
+  }
+  .container-acnt .content .panel .modal-alertoption-body .form-group label{
+    padding-left: 21px;
+    font-size: 16px;
+  }
+  .modal-alertoption-body .form-group div span.switch-style{
+    right: 20px;
+  }
+  /* accountBefore */
+  .content-before .panel-body .btn-block,
+  .content .panel .panel-footer .btn-w70p{
+    width: 50%;
+  }
+  .content-before .panel-body .btn-block .btn-md,
+  .content .panel .panel-footer .btn-w70p .btn-md{
+    height: 50px;
+    font-size: 18px;
+  }
+  .content .table-panel .table-yellow th:last-child,
+  .content .table-panel .table-yellow td:last-child{
+    border-right: 1px solid #e8e8e8;
+  }
+}

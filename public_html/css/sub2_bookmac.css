@@ -1,0 +1,62 @@
+@import url(sub_common.css);
+header {
+    background: url(../images/bg_pj2_top.jpg) no-repeat center;
+}
+.container>h2 {
+    color: #e97957;
+    text-shadow: 3px 3px 5px rgba(207, 99, 67, 0.75);
+}
+.container>div {
+    background-color: #e97957;
+    border: 1px solid #ed987e;
+}
+.container>div.box1>div>pre {
+    margin: 0;
+    line-height: 3;
+    padding-top: 90px;
+}
+.container>div>h3 {    
+    text-shadow: 3px 3px 5px rgba(207, 99, 67, 0.75);    
+}
+.container>div.box2>div {
+    background-color: #e97957;
+}
+.container>div.box2>h3{
+    color: #e97957;
+    text-shadow: 1px 1px 1px rgba(207, 99, 67, 0.75);
+}
+.container>div.box2>div>p>a:hover{
+    text-shadow: 0px 0px 20px rgba(181, 79, 48, 0.75);
+}
+.container>div.box2>div>p>a:hover{}
+.col1 {
+    background-color: #40302e;
+}
+
+.col2 {
+    background-color: #4a3a38;
+}
+
+.col3 {
+    background-color: #534e49;
+}
+
+.col4 {
+    background-color: #5e4e4C;
+}
+
+.col5 {
+    background-color: #faebd7;
+}
+.box2>div>p{
+    padding-top: 20px;
+}
+.box5>div>p{
+    padding-top: 30px;
+}
+.to_next {
+    background-color: rgba(206, 71, 70, 0.5);
+}
+.to_next:hover{
+    background-color: rgba(206, 71, 70, 1);
+}
