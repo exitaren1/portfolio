@@ -1,0 +1,132 @@
+@import url(common.css);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed);
+html,
+body {
+    max-width: 720px;
+}
+.wrap {
+    position: absolute;
+    top: 0;
+    text-align: center;
+    background: url(../images/skywalker-m.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+}
+
+.blind {
+    display: none;
+}
+
+header img {
+    margin-top: 20%;
+    width: 60%;
+}
+
+.con1 p {
+    padding-top: 13%;
+    font-size: 3vw;
+    font-family: 'Nanum Gothic';
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+.searchBox {
+    margin-top: 15%;
+    display: block;
+    position: relative;
+    width: 70%;
+    height: 5vw;
+    background: white;
+    position: relative;
+    left: 50%;
+    margin-left: -35%;
+    border: 2px solid #5a90bf;
+    border-radius: 30px;
+}
+
+.searchBox input:nth-of-type(1) {
+    border: 0;
+    line-height: 4.5vw;
+    width: 90%;
+    margin-left: 15px;
+    margin-top: 2px;
+    color: #5a90bf;
+    font-size: 2.5vw;
+    letter-spacing: 0.2vw;
+}
+
+.searchBox input:nth-of-type(2) {
+    position: absolute;
+    right: 25px;
+    top: 25%;
+    height: 50%;
+}
+
+.con2 {
+    margin-top: 47%;
+    padding-bottom: 30px;
+}
+
+.con2 input {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    height: 6vw;
+    margin-bottom: 2vw;
+    color: #fff;
+    font-size: 2.3vw;
+    font-family: 'Open Sans Condensed';
+    letter-spacing: 1vw;
+}
+
+.con2 input::-webkit-input-placeholder {
+    color: #fff
+}
+
+.con2 input::-moz-placeholder {
+    color: #fff
+}
+
+.con2 input:nth-of-type(1),
+.con2 input:nth-of-type(2) {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 0;
+    text-align: center;
+    
+}
+
+.con2 input:nth-of-type(1) {
+    background-image: url(../images/ico_id.png);
+    background-repeat: no-repeat;
+    background-size: 3vw;
+    background-position: 3vw center;
+}
+
+.con2 input:nth-of-type(1):after {
+    content: "";
+    background: url(../images/bg_bar.gif);
+    display: block;
+    height: 60px;
+}
+
+.con2 input:nth-of-type(2) {
+    background-image: url(../images/ico_password.png);
+    background-repeat: no-repeat;
+    background-size: 3vw;
+    background-position: 3vw center;
+}
+.con2 input:nth-of-type(3){
+    background-color: #fff;
+    color: #221016;
+    border: 0;    
+    font-weight: bold;
+    margin-bottom: 3vw;
+}
+.con2>a{
+    padding: 10px;
+    font-family: 'Open Sans Condensed';
+    font-weight: bold;
+    text-decoration: underline;
+    color: #fff;
+}

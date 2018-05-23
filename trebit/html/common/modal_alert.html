@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>Trebit</title>
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="../../assets/css/trebit.css">
+    <link rel="stylesheet" type="text/css" href="../../assets/css/trade.css">
+  </head>
+  <body>
+    <!-- modal -->
+    <div class="modal">
+      <div class="modal-backdrop"></div>
+
+      <!-- modal: Alert -->
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">이메일 인증 링크 발송</h4>
+          </div>
+          <div class="modal-body">
+            <p>이메일 주소 확인 링크가 담긴 이메일을 발송하였습니다.<br />
+계정을 활성화하기 위해 해당 링크를 방문해 주세요.</p>
+          </div>
+          <div class="modal-footer">
+            <div class="btn-block">
+              <button type="button" class="btn">확인</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- //modal: Alert -->
+
+    </div>
+    <!-- //modal -->
+
+    <div class="wrap">
+      <!-- header -->
+      <header class="header">
+        <div class="h-top">
+          <div class="pull-left">
+            <div class="h-coin">
+              <b>BTC</b>
+              <span>23,000,000원</span>
+            </div>
+            <div class="h-coin">
+              <b>ETH</b>
+              <span>10,000,000원</span>
+            </div>
+          </div>
+          <div class="pull-right">
+            <div class="lang">
+              <div class="lang-global">
+                <b>Language</b>
+                <div class="lang-selct">
+                  <button type="button">
+                    <span class="fa fa-caret-down"></span>
+                  </button>
+                  <ul>
+                    <li><a href="#">KOREA</a></li>
+                    <li><a href="#">English</a></li>
+                    <li><a href="#">Japan</a></li>
+                    <li><a href="#">Hongkong</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="h-gnb">
+          <h1>
+            <a class="btn-logo">
+              <span>Trebit</span>
+            </a>
+          </h1>
+          <div class="h-nav">
+            <a href="#" class="btn-nav">
+              <span>메뉴</span>
+            </a>
+            <!-- 모바일 LNB 추가 -->
+            <div class="m-lnb-wrap hide">
+              <div class="m-lnb">
+                <div class="m-lnb-header">
+                  <a class="btn-logo">
+                    <span>Trebit</span>
+                  </a>
+                  <a href="#" class="btn-close"><i class="fa fa-times"></i></a>
+                </div>
+                <!-- 로그인 전 -->
+                <div class="m-lnb-body login">
+                  <p class="title">로그인 하신후<br>이용 할 수 있습니다.</p>
+                  <div class="m-lnb-content">
+                    <div class="btn-group btn-block">
+                      <button type="button" class="btn btn-md btn-primary">로그인</button>
+                      <button type="button" class="btn btn-md btn-default">회원가입</button>
+                    </div>
+                  </div>
+                </div>
+                <!-- //로그인 전 -->
+
+                <!-- 로그인 후 -->
+                <div class="m-lnb-body account">
+                  <p class="title"><b>홍길동</b>님,<br>안녕하세요.</p>
+                  <div class="m-lnb-content">
+                    <p class="text-success"><b>내 보유자산</b></p>
+                    <div class="m-lnb-my">
+                      <div>
+                        <label>원화</label>
+                        <b>000,000,000,000 KRW</b>
+                      </div>
+                      <div>
+                        <label>비트코인</label>
+                        <b>0.00000000 BTC</b>
+                      </div>
+                      <div>
+                        <label>이더리움</label>
+                        <b>0.00000000 ETH</b>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- //로그인 후 -->
+
+                <div class="m-lnb-footer">
+                  <ul>
+                    <li class="active"><a href="#">거래소</a></li>
+                    <li><a href="#">지갑관리</a></li>
+                    <li><a href="#">투자내력</a></li>
+                    <li><a href="#">고객센터</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="bg"></div>
+            </div>
+            <!-- //모바일 LNB 추가 -->
+
+            <nav class="h-nav-inner">
+              <ul>
+                <li class="h-nav-trade active">
+                  <a href="#">거래소</a>
+                  <div class="h-sub">
+                    <ul>
+                      <li class="active"><a href="#">비트코인 BTC</a></li>
+                      <li><a href="#">이더리움 ETH</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="h-nav-wallet">
+                  <a href="#">지갑관리</a>
+                  <div class="h-sub">
+                    <ul>
+                      <li class="active"><a href="#">입금</a></li>
+                      <li><a href="#">출금</a></li>
+                      <li><a href="#">입출금 내역</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="h-nav-detail">
+                  <a href="#">투자내역</a>
+                  <div class="h-sub">
+                    <ul>
+                      <li class="active"><a href="#">보유자산</a></li>
+                      <li><a href="#">투자내역</a></li>
+                      <li><a href="#">미체결</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="h-nav-cs">
+                  <a href="#">고객센터</a>
+                  <div class="h-sub">
+                    <ul>
+                      <li class="active"><a href="#">공지사항</a></li>
+                      <li><a href="#">이용안내</a></li>
+                      <li><a href="#">1:1문의</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="h-nav-account">
+                  <a href="#">계정관리</a>
+                  <div class="h-sub">
+                    <ul>
+                      <li class="active"><a href="#">내계정</a></li>
+                      <li><a href="#">인증센터</a></li>
+                      <li><a href="#">OPT관리</a></li>
+                      <li><a href="#">접속정보</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="h-mbs">
+            <a href="#" class="btn-lgn">
+              <span>로그인</span>
+            </a>
+            <!-- 로그인 전 -->
+            <ul class="h-mbs-inner">
+              <li><a href="#">로그인</a></li>
+              <li><a href="#">회원가입</a></li>
+            </ul>
+            <!-- 로그인 후 -->
+            <ul class="h-mbs-inner hide">
+              <li class="after">안녕하세요 <a href="#">이정은</a>님</li>
+            </ul>
+            <div class="h-mbs-sub hide">
+              <div class="h-mbs-smenu">
+                <dl>
+                  <dt>
+                    <a href="#">안녕하세요</a>
+                    <button type="button" class="btn-close">
+                      <span class="fa fa-caret-up"></span>
+                    </button>
+                  </dt>
+                  <dd><a href="#">로그인</a></dd>
+                  <dd><a href="#">회원가입</a></dd>
+                </dl>
+                <dl>
+                  <dt>
+                    <a href="#"><b>이정은</b> 님</a>
+                    <button type="button" class="btn-close">
+                      <span class="fa fa-caret-up"></span>
+                    </button>
+                  </dt>
+                  <dd><a href="#">계정관리</a></dd>
+                  <dd><a href="#">로그아웃</a></dd>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="h-gnb-sub">
+          <div class="trade-coin">
+            <h3>내 보유자산</h3>
+            <div>
+              <span>원화</span>
+              <b>000,000,000,000</b>
+            </div>
+            <div>
+              <span>비트코인</span>
+              <b>0.00000000</b>
+            </div>
+            <div>
+              <span>이더리움</span>
+              <b>0.00000000</b>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- //header -->
+
+      <!-- container -->
+      <div class="container">
+
+        <div class="container-trade">
+          <!-- 오더북 -->
+          <div class="container-trade-left">
+            <!-- 현황 -->
+            <div class="content orderbook">
+              <div class="panel">
+                <div class="panel-heading">
+                  <div class="panel-title">
+                    <h2>비트코인 BTC <small>▼</small></h2>
+                  </div>
+                </div>
+                <div class="panel-body">
+                  <span><strong class="text-warning">23,028,000</strong> KRW</span>
+                </div>
+                <div class="panel-footer">
+                  <span>전일대비</span>
+                  <b class="text-warning"><small>▲</small> 0.52%</b>
+                  <b class="text-warning">+ 72,000</b>
+                </div>
+              </div>
+            </div>
+            <!-- //현황 -->
+
+            <!-- 시장현황 -->
+            <div class="content orderbook-table">
+              <div class="panel">
+                <div class="panel-heading">
+                  <div class="panel-title">
+                    <h2>시장현황</h2>
+                  </div>
+                </div>
+                <div class="panel-body">
+                  <div class="table-responsive">
+                    <table class="table table-bordered">
+                      <colgroup>
+                        <col width="30%" />
+                        <col width="40%" />
+                        <col width="30%" />
+                      </colgroup>
+                      <caption>시장현황</caption>
+                      <tbody class="buy">
+                        <tr>
+                          <th>-42.226</th>
+                          <td><span class="text-warning">23,432,000</span></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th>140.245</th>
+                          <td><span class="text-warning">23,432,000</span></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th>87.524</th>
+                          <td><span class="text-warning">23,432,000</span></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th>523.569</th>
+                          <td><span class="text-warning">23,432,000</span></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th>-42.226</th>
+                          <td><span class="text-warning">23,432,000</span></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th>140.245</th>
+                          <td><span class="text-warning">23,432,000</span></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th>98.324</th>
+                          <td><span class="text-warning">23,432,000</span></td>
+                          <td></td>
+                        </tr>
+                      </tbody>
+                      <tbody class="sell">
+                        <tr>
+                          <th></th>
+                          <td><span class="text-warning">23,432,000</span></td>
+                          <td>48.927</td>
+                        </tr>
+                        <tr>
+                          <th></th>
+                          <td><span class="text-dark">23,432,000</span></td>
+                          <td>58.123</td>
+                        </tr>
+                        <tr>
+                          <th></th>
+                          <td><span class="text-warning">23,432,000</span></td>
+                          <td>5893478</td>
+                        </tr>
+                        <tr>
+                          <th></th>
+                          <td><span class="text-primary">23,432,000</span></td>
+                          <td>12.562</td>
+                        </tr>
+                        <tr>
+                          <th></th>
+                          <td><span class="text-primary">23,432,000</span></td>
+                          <td>785.235</td>
+                        </tr>
+                        <tr>
+                          <th></th>
+                          <td><span class="text-primary">23,432,000</span></td>
+                          <td>02.454</td>
+                        </tr>
+                        <tr>
+                          <th></th>
+                          <td><span class="text-primary">23,432,000</span></td>
+                          <td>-65.563</td>
+                        </tr>
+                      </tbody>
+                      <tfoot>
+                        <tr>
+                          <th>897.256</th>
+                          <td><b>주문잔량합계<b></td>
+                          <td>897.256</td>
+                        </tr>
+                      </tfoot>
+                    </table>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <!-- //시장현황 -->
+
+          </div>
+          <!-- //오더북 -->
+
+          <!-- chart+구매판매+미체결 -->
+          <div class="container-trade-center">
+            <!-- chart -->
+            <div class="content trade-chart">
+              <div></div>
+            </div>
+            <!-- //chart -->
+
+            <!-- 구매판매 -->
+            <div class="content trade-form-wrap">
+              <div class="trade-form">
+                <!-- 구매폼 -->
+                <div class="trade-form-buy">
+                  <!-- 구매폼 -->
+                  <form>
+                    <div class="panel">
+                      <div class="panel-heading">
+                        <div class="panel-title">
+                          <h2>구매</h2>
+                          <button type="button" class="btn btn-sm btn-default">입출금</button>
+                        </div>
+                      </div>
+                      <div class="panel-body">
+                        <fieldset>
+                          <legend>입출금</legend>
+                          <div class="form-group amount">
+                            <label>주문가능금액</label>
+                            <div class="text-right">
+                              <span>1,000,000,0000</span>&nbsp;&nbsp;&nbsp;KRW
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label>구매량 <b>BTC</b></label>
+                            <div class="input-group">
+                              <input type="text" name="" value="" class="form-control">
+                              <span class="input-group-btn">
+                                <button class="btn" type="button">최대</button>
+                              </span>
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label>구매량 <b>KRW</b></label>
+                            <div class="input-group">
+                              <input type="text" name="" value="" class="form-control">
+                              <span class="input-group-btn">
+                                <button class="btn" type="button">-</button>
+                              </span>
+                              <span class="input-group-btn">
+                                <button class="btn" type="button">+</button>
+                              </span>
+                            </div>
+                          </div>
+                        </fieldset>
+                      </div>
+                      <div class="panel-footer">
+                        <div class="trade-form-total">
+                          <label>합계</label>
+                          <div>
+                            <p>
+                              <strong class="text-warning">1000,000,000</strong> KRW
+                            </p>
+                            <small>수수료 0.5%</small>
+                          </div>
+                        </div>
+                        <div class="trade-form-btn">
+                          <button type="button" class="btn btn-lg btn-default">초기화</button>
+                          <button type="button" class="btn btn-lg btn-warning">확인</button>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <!-- //구매폼 -->
+
+                <!-- 판매폼 -->
+                <div class="trade-form-sell">
+                  <form>
+                    <div class="panel">
+                      <div class="panel-heading">
+                        <div class="panel-title">
+                          <h2>판매</h2>
+                          <button type="button" class="btn btn-sm btn-default">입출금</button>
+                        </div>
+                      </div>
+                      <div class="panel-body">
+                        <fieldset>
+                          <legend>판매폼</legend>
+                          <div class="form-group amount">
+                            <label>주문가능금액</label>
+                            <div class="text-right">
+                              <span>1,000,000,0000</span>&nbsp;&nbsp;&nbsp;KRW
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label>판매량 <b>BTC</b></label>
+                            <div class="input-group">
+                              <input type="text" name="" value="" class="form-control">
+                              <span class="input-group-btn">
+                                <button class="btn" type="button">최대</button>
+                              </span>
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label>판매가 <b>KRW</b></label>
+                            <div class="input-group">
+                              <input type="text" name="" value="" class="form-control">
+                              <span class="input-group-btn">
+                                <button class="btn" type="button">-</button>
+                              </span>
+                              <span class="input-group-btn">
+                                <button class="btn" type="button">+</button>
+                              </span>
+                            </div>
+                          </div>
+                        </fieldset>
+                      </div>
+                      <div class="panel-footer">
+                        <div class="trade-form-total">
+                          <label>합계</label>
+                          <div>
+                            <p>
+                              <strong class="text-primary">1000,000,000</strong> KRW
+                            </p>
+                            <small>수수료 0.5%</small>
+                          </div>
+                        </div>
+                        <div class="trade-form-btn">
+                          <button type="button" class="btn btn-lg btn-default">초기화</button>
+                          <button type="button" class="btn btn-lg btn-primary">확인</button>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <!-- //판매폼 -->
+              </div>
+
+              <!-- 미체결 -->
+              <div class="trade-no">
+                <div class="panel trade-table">
+                  <div class="panel-heading">
+                    <div class="panel-title">
+                      <h3>미체결</h3>
+                    </div>
+                    <button type="button" class="open">
+                      <span>열기</span>
+                      <i class="fa fa-chevron-up"></i>
+                    </button>
+                  </div>
+                </div>
+                <!-- 미체결 열림 class hide 삭제 -->
+                <div class="panel trade-table hide">
+                  <div class="panel-heading">
+                    <div class="panel-title">
+                      <h3>미체결</h3>
+                    </div>
+                    <button type="button" class="close">
+                      <span>닫기</span>
+                      <i class="fa fa-chevron-down"></i>
+                    </button>
+                  </div>
+                  <div class="panel-body">
+                    <div class="table-responsive">
+                      <table class="table table-bordered">
+                        <caption>미체결</caption>
+                        <thead>
+                          <tr>
+                            <th>구분</th>
+                            <th>주문시간</th>
+                            <th>주문가</th>
+                            <th>주문량</th>
+                            <th>미체결량</th>
+                            <th>취소</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th><span class="text-warning">구매</span></th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>
+                              <button type="button" class="btn btn-sm btn-default">취소</button>
+                            </td>
+                          </tr>
+                          <tr>
+                            <th><span class="text-warning">구매</span></th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>
+                              <button type="button" class="btn btn-sm btn-default">취소</button>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td colspan="6">
+                              <div class="table-no-data">
+                                <span>미체결 내역이 없습니다.</span>
+                              </div>
+                            </td>
+                          <tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 업무시간 외 -->
+                <div class="close-time hide">
+                  <div class="close-login">
+                    로그인후 이용하세요
+                  </div>
+                </div>
+                <!-- //업무시간 외 -->
+
+              </div>
+              <!-- //미체결 -->
+            </div>
+
+          </div>
+          <!-- //chart+구매판매+미체결 -->
+
+          <!-- 체결현황 -->
+          <div class="container-trade-right">
+
+            <div class="content trade-board">
+              <div class="trade-board-con">
+                <span>고가</span>
+                <b class="text-warning">24,104,000</b>
+              </div>
+              <div class="trade-board-con">
+                <span>저가</span>
+                <b class="text-primary">22,981,000</b>
+              </div>
+              <div class="trade-board-con">
+                <span>거래량</span>
+                <b class="text-danger">44,908.178 BTC</b>
+              </div>
+            </div>
+
+            <div class="content trade-board-list">
+              <div class="panel">
+                <div class="panel-heading">
+                  <div class="panel-title">
+                    <h2>최근 체결 내역</h3>
+                  </div>
+                </div>
+                <div class="panel-body">
+                  <!-- 최근 체결 내역 -->
+                  <div class="table-responsive">
+                    <table class="table table-bordered">
+                      <caption>최근 체결 내역</caption>
+                      <thead>
+                        <tr>
+                          <th>체결가</th>
+                          <th>체결량</th>
+                          <th>체결시각</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th>25,000,000</th>
+                          <!--
+                          체결량 표시할 때 매수주문이 테이커가 된 경우 class="text-warning"으로 표시,
+                          매도주문이 테이커가 된 경우 class="text-primary"으로 표시
+                          -->
+                          <td><span class="text-warning">25,000,000</span></td>
+                          <td>01:58</td>
+                        </tr>
+                        <tr>
+                          <th>25,000,000</th>
+                          <td><span class="text-primary">25,000,000</span></td>
+                          <td>01:58</td>
+                        </tr>
+                        <tr>
+                          <th>25,000,000</th>
+                          <td><span class="text-warning">25,000,000</span></td>
+                          <td>01:58</td>
+                        </tr>
+                        <tr>
+                          <th>25,000,000</th>
+                          <td><span class="text-warning">25,000,000</span></td>
+                          <td>01:58</td>
+                        </tr>
+                        <tr>
+                          <th>25,000,000</th>
+                          <td><span class="text-warning">25,000,000</span></td>
+                          <td>01:58</td>
+                        </tr>
+                        <tr>
+                          <th>25,000,000</th>
+                          <td><span class="text-primary">25,000,000</span></td>
+                          <td>01:58</td>
+                        </tr>
+                        <tr>
+                          <th>25,000,000</th>
+                          <td><span class="text-primary">25,000,000</span></td>
+                          <td>01:58</td>
+                        </tr>
+                        <tr>
+                          <th>25,000,000</th>
+                          <td><span class="text-primary">25,000,000</span></td>
+                          <td>01:58</td>
+                        </tr>
+                        <tr>
+                          <th>25,000,000</th>
+                          <td><span class="text-primary">25,000,000</span></td>
+                          <td>01:58</td>
+                        </tr>
+                        <tr>
+                          <th>25,000,000</th>
+                          <td><span class="text-primary">25,000,000</span></td>
+                          <td>06:30</td>
+                        </tr>
+                        <tr>
+                          <th>25,000,000</th>
+                          <td><span class="text-primary">25,000,000</span></td>
+                          <td>08:00</td>
+                        </tr>
+                        <tr>
+                          <th>25,000,000</th>
+                          <td><span class="text-warning">25,000,000</span></td>
+                          <td>04:00</td>
+                        </tr>
+                        <tr>
+                          <th>25,000,000</th>
+                          <td><span class="text-warning">25,000,000</span></td>
+                          <td>03:50</td>
+                        </tr>
+                        <tr>
+                          <th>25,000,000</th>
+                          <td><span class="text-primary">25,000,000</span></td>
+                          <td>01:58</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- //체결현황 -->
+        </div>
+      </div>
+      <!-- //container -->
+
+      <!-- footer -->
+      <footer class="footer">
+        <div class="f-wrap">
+          <div class="f-top">
+            <ul>
+              <li><a href="#">회사소개</a></li>
+              <li><a href="#">이용약관</a></li>
+              <li><a href="#">개인정보처리방침</a></li>
+              <li><a href="#">공지사항</a></li>
+              <li><a href="#">FAQ</a></a></li>
+            </ul>
+          </div>
+          <div class="f-info">
+            <div class="f-logo">
+              <img src="../../assets/images/trebit_logo_footer.png" alt="trebit">
+            </div>
+            <ul>
+               <li>주식회사 트래빗</li>
+               <li>대표자 : 송광일</li>
+               <li>개인정보관리책임자 : 송광일</li>
+            </ul>
+            <address class="f-adr">주소 : 서울특별시 마포구 월드컵북로 402, 1201호(상암동, 케이지아이티센터) </address>
+            <ul>
+                <li>사업자등록번호 : 680-87-00919</li>
+                <li>통신판매번호 : 제0000-0000-0000</li>
+                <li>문의 : <a href="mailto:cs@trebit.com">cs@trebit.com</a></li>
+            </ul>
+            <div class="f-cpr">
+              <p>Copyright ⓒ2018 TREBIT All Right Reserved.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- //footer -->
+    </div>
+  </body>
+</html>

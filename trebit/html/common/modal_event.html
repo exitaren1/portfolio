@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>Trebit</title>
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="../../assets/css/trebit.css">
+    <link rel="stylesheet" type="text/css" href="../../assets/css/main.css">
+  </head>
+  <body>
+    <!-- 이벤트배너 추가 -->
+    <div class="modal">
+      <div class="modal-backdrop"></div>
+
+      <div class="modal-dialog">
+        <div class="modal-content event-bnr">
+          <div class="modal-header">
+            <div class="close">
+              <a href="#"><span>창닫기</span></a>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="event-bnr-content">
+              <!--
+              <button type="button" class="event-link1">
+                <span>사전예약 참여하기</span>
+              </button>
+              <button type="button" class="event-link2">
+                <span>이벤트 자세히보기</span>
+              </button>
+              <button type="button" class="event-link3">
+                <span>1:1문의 바로가기</span>
+              </button>
+              -->
+              <a href="http://trebit.com/" class="event-link1" target="_blank">
+                <img src="../../assets/images/dot_image.png" class="no-img">
+                <span>사전예약 참여하기</span>
+              </a>
+              <a href="#" class="event-link2" target="_blank">
+                <img src="../../assets/images/dot_image.png" class="no-img">
+                <span>투자대회 참여하기</span>
+              </a>
+              <a href="../cscenter/qna_form.html" class="event-link3">
+                <img src="../../assets/images/dot_image.png" class="no-img">
+                <span>1:1문의 바로가기</span>
+              </a>
+              <img src="../../assets/images/mobile_event_0411.png" alt="트레빗 이벤트" class="mob" />
+              <img src="../../assets/images/web_event_0411.png" alt="트레빗 이벤트" class="pc" />
+            </div>
+          </div>
+          <div class="modal-footer">
+            <div class="form-inline">
+              <label class="field option block">
+                <span class="option-txt">오늘 하루 그만보기</span>
+                <input type="checkbox">
+                <span class="checkbox"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- //이벤트배너 추가 -->
+
+    <div class="wrap main-wrap">
+      <!-- header -->
+      <header class="header">
+        <!-- header top -->
+        <div class="h-top">
+          <div class="h-top-wrap">
+
+            <div class="pull-left">
+              <div class="h-coin">
+                <b>BTC</b>
+                <span class="text-warning">23,000,000원</span>
+              </div>
+              <div class="h-coin">
+                <b>BTC</b>
+                <span class="text-primary">10,000,000원</span>
+              </div>
+              <div class="h-coin">
+                <b>SC</b>
+                <span>10,000,000원</span>
+              </div>
+            </div>
+            <div class="pull-right">
+              <div class="lang">
+                <ul>
+                  <li>
+                    <a href="#" class="lang-global">KR<i class="fa fa-caret-down"></i></a>
+                  </li>
+                </ul>
+                <div class="lang-select hide">
+                  <ul>
+                    <li><a href="#">Language<i class="fa fa-caret-up"></i></a></li>
+                    <li><a href="#">Korea</a></li>
+                    <li><a href="#">English</a></li>
+                    <li><a href="#">Japan</a></li>
+                    <li><a href="#">Hongkong</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- //header top -->
+
+        <!-- header GNB -->
+        <div class="h-gnb">
+          <div class="h-gnb-wrap">
+            <h1>
+              <a class="btn-logo" href="#">
+                <span>Trebit</span>
+              </a>
+              <strong class="title">투자내역</strong>
+            </h1>
+            <div class="h-nav">
+              <a href="#" class="btn-nav">
+                <span>메뉴</span>
+              </a>
+              <!-- 모바일 lnb -->
+              <div class="m-lnb-wrap hide">
+                <div class="m-lnb">
+                  <div class="m-lnb-header">
+                    <a class="m-lnb-logo">
+                      <span>Trebit</span>
+                    </a>
+                    <a href="#" class="btn-close"></a>
+                    <a href="#" class="btn-lang">Language : KR <i class="fa fa-angle-right"></i></a>
+                  </div>
+
+                  <div class="m-lnb-body">
+                    <div class="m-lnb-content">
+                      <!-- 로그인전 -->
+                      <ul class="login-list hide">
+                        <li><a href="#">로그인</a></li>
+                        <li><a href="#">회원가입</a></li>
+                      </ul>
+                      <!-- 로그인후 -->
+                      <ul class="login-list">
+                        <li><b>이정은</b>님<br />안녕하세요.</span></li>
+                        <li class="pull-right"><a href="#">로그아웃</a></li>
+                        <li class="pull-right"><a href="#">계정관리</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="m-lnb-footer">
+                    <div class="m-lnb-content">
+                      <div>
+                        <ul>
+                          <li class="active"><a href="#">거래소</a></li>
+                          <li><a href="#">지갑관리</a></li>
+                          <li><a href="#">투자내역</a></li>
+                          <li><a href="#">고객센터</a></li>
+                          <li><a href="#">랭킹</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="bg"></div>
+              </div>
+              <!-- //모바일 lnb -->
+
+              <nav class="h-nav-inner">
+                <ul>
+                  <li class="h-nav-trade active">
+                    <a href="#">거래소</a>
+                  </li>
+                  <li class="h-nav-wallet">
+                    <a href="#">입출금</a>
+                  </li>
+                  <li class="h-nav-detail">
+                    <a href="#">투자내역</a>
+                  </li>
+                  <li class="h-nav-cs">
+                    <a href="#">고객센터</a>
+                  </li>
+                  <li class="h-nav-account">
+                    <a href="#">계정관리</a>
+                  </li>
+                  <li class="h-nav-ranking">
+                    <a href="#">랭킹</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="h-mbs">
+              <a href="#" class="btn-lgn">
+                <span>로그인</span>
+              </a>
+              <div class="h-mbs-inner">
+                <!-- 로그인 전 -->
+                <ul class="hide">
+                  <li>
+                    <a href="#">로그인</a>
+                  </li>
+                  <li>
+                    <a href="#">회원가입</a>
+                  </li>
+                </ul>
+                <!-- 로그인 후 -->
+                <ul>
+                  <li>
+                    <a href="#">로그아웃</a>
+                  </li>
+                  <li>
+                    <a href="#">계정관리</a>
+                  </li>
+                  <li>
+                    <a href="#">내보유자산 <i class="fa fa-sort-down"></i> </a>
+                  </li>
+                </ul>
+              </div>
+              <!-- 내 보유자산 -->
+              <div class="trade-coin hide">
+                <div class="my-coin">
+                  <div>
+                    <label>코인 총 평가</label>
+                    <span><b class="text-warning">1,000,000,000,000</b> KRW</span>
+                  </div>
+                  <div>
+                    <label>평가수익률</label>
+                    <span><b class="text-warning">+115.94%</b></span>
+                  </div>
+                </div>
+                <div class="my-coin-detail">
+                  <table class="table">
+                    <caption>내 보유자산 상세</caption>
+                    <thead>
+                      <tr>
+                        <th>코인</th>
+                        <th>평가금액</th>
+                        <th>평가 수익률</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th>비트코인</th>
+                        <td><span class="text-warning">23,811,000</span></td>
+                        <td><span class="text-warning">+15.94%</span></td>
+                      </tr>
+                      <tr>
+                        <th>이더리움</th>
+                        <td><span class="text-primary">1,880,000</span></td>
+                        <td><span class="text-primary">-10.86%</span></td>
+                      </tr>
+                      <tr>
+                        <th>퀀텀</th>
+                        <td><span class="text-warning">23,811,000</span></td>
+                        <td><span class="text-warning">+15.94%</span></td>
+                      </tr>
+                      <tr>
+                        <th>시아</th>
+                        <td><span>1,880,000</span></td>
+                        <td><span>-10.86%</span></td>
+                      </tr>
+                    </tbody>
+                    <tfoot>
+                      <!--
+                      <tr>
+                        <th>사용중인 자산</th>
+                        <td colspan="2"><span>0</span> KRW</td>
+                      </tr>
+                    -->
+                      <tr>
+                        <th>사용가능 자산</th>
+                        <td colspan="2"><span>23,028,000</span> KRW</td>
+                      </tr>
+                    </tfoot>
+                  </table>
+                </div>
+                <div class="my-coin-btn btn-block">
+                  <button type="button">창닫기</button>
+                  <button type="button">내 투자현황 보기</button>
+                </div>
+              </div>
+              <!-- //보유자산 -->
+            </div>
+          </div>
+        </div>
+        <!-- //header GNB -->
+
+        <!-- header sub GNB -->
+        <div class="h-gnb-sub">
+          <!-- 공통 -->
+          <div class="h-sub common-sub">
+            <ul class="detail hide">
+              <li class="active"><a href="#">자산현황</a></li>
+              <li><a href="#">거래내역</a></li>
+              <li><a href="#">미체결내역</a></li>
+              <li><a href="#">입출금내역</a></li>
+            </ul>
+            <ul class="account hide">
+              <li class="active"><a href="#">나의정보</a></li>
+              <li><a href="#">인증센터</a></li>
+              <li><a href="#">회원등급</a></li>
+              <li><a href="#">접속정보</a></li>
+            </ul>
+            <ul class="cscenter hide">
+              <li class="active"><a href="#">공지사항</a></li>
+              <li><a href="#">이용안내</a></li>
+              <li><a href="#">수수료안내</a></li>
+              <li><a href="#">1:1문의</a></li>
+            </ul>
+            <ul class="ranking">
+              <li class="active"><a href="#">자산 순위</a></li>
+              <li><a href="#">거래 순위</a></li>
+            </ul>
+          </div>
+          <!-- //공통 -->
+          <!-- 거래소 -->
+          <div class="h-sub trade-sub hide">
+            <div class="swiper-menu">
+              <ul class="trade">
+                <li class="active"><a href="#">비트코인</a></li>
+                <li><a href="#">이더리움</a></li>
+                <li><a href="#">퀸텀</a></li>
+                <li><a href="#">시아</a></li>
+              </ul>
+              <div class="btn-open">
+                <button class="icon-arrow-down3"></button>
+              </div>
+            </div>
+            <div class="trade-sub-list hide">
+              <div class="head">
+                <b>코인명</b>
+                <div class="btn-close">
+                  <button class="icon-arrow-down3"></button>
+                </div>
+              </div>
+              <div class="body">
+                <div>
+                  <ul>
+                    <li>
+                      <a href="#"><i class="icon-BTC"></i><span><b>비트코인</b>BTC</span></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="icon-ETH"></i><span><b>이더리움</b>ETH</span></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="icon-QTUM"></i><span><b>퀀텀</b>QTUM</span></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="icon-SC"></i><span><b>시아</b>SC</span></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- //거래소 -->
+          <!-- 입출금 -->
+          <div class="h-sub trade-sub hide">
+            <div class="swiper-menu">
+              <ul class="wallet">
+                <li class="active"><a href="#">원화</a></li>
+                <li><a href="#">비트코인</a></li>
+                <li><a href="#">이더리움</a></li>
+                <li><a href="#">퀸텀</a></li>
+                <li><a href="#">시아</a></li>
+              </ul>
+              <div class="btn-open">
+                <button class="icon-arrow-down3"></button>
+              </div>
+            </div>
+            <div class="trade-sub-list hide">
+              <div class="head">
+                <b>코인명</b>
+                <div class="btn-close"><button class="icon-arrow-down3"></button></div>
+              </div>
+              <div class="body">
+                <div>
+                  <ul>
+                    <li>
+                      <a href="#"><i class="icon-BTC"></i><span><b>비트코인</b>BTC</span></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="icon-ETH"></i><span><b>이더리움</b>ETH</span></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="icon-QTUM"></i><span><b>퀀텀</b>QTUM</span></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="icon-SC"></i><span><b>시아</b>SC</span></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- //입출금 -->
+        </div>
+        <!-- //header sub GNB -->
+      </header>
+      <!-- //header -->
+
+      <!-- container -->
+      <div class="container container-main">
+
+        <div class="main-cont1">
+          <div class="wrap">
+            <div class="txt mob">
+              <b>믿음과 신뢰의<br />금융혁신 파트너</b>
+              <p>Trusty and safe financial innovation partner</p>
+            </div>
+            <div class="txt pc">
+              <b>믿음과 신뢰의 금융혁신 파트너</b>
+              <p>Trusty and safe financial innovation partner</p>
+            </div>
+            <div class="login-main-form">
+              <form>
+                <div class="form-group">
+                  <label for="">이메일 주소</label>
+                  <input type="email" class="form-control" id="" placeholder="E-Mail">
+                </div>
+                <div class="form-group">
+                  <label for="">암호</label>
+                  <input type="password" class="form-control" id="" placeholder="Password">
+                </div>
+                <button type="submit" class="btn">로그인</button>
+              </form>
+              <div class="login-main-link">
+                <ul>
+                  <li><a href="#">회원가입</a></li>
+                  <li><a href="#">비밀번호 찾기</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- 로그인 후 거래소 바로가기 버튼 추가 -->
+            <div class="go-trade hide">
+              <button type="button" class="btn btn-link">거래소 바로가기</button>
+            </div>
+            <!-- //로그인 후 거래소 바로가기 버튼 추가 -->
+          </div>
+        </div>
+
+        <div class="main-cont2">
+          <div class="wrap">
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <!-- 이벤트 내용 -->
+                  <div class="banner event1">
+                    <b>공지</b>
+                    <p>트래빗 거래소 오픈 이벤트 (4.01-5.30트래빗 거래소 오픈 이벤트 (4.01-5.30트래빗 거래소 오픈 이벤트 (4.01-5.30트래빗 거래소 오픈 이벤트 (4.01-5.30트래빗 거래소 오픈 이벤트 (4.01-5.30)</p>
+                  </div>
+                  <!-- //이벤트 내용 -->
+                </div>
+                <div class="swiper-slide">
+                  <!-- 이벤트 내용 -->
+                  <div class="banner event2">
+                    <b>공지</b>
+                    <p>3 트래빗 거래소 오픈 이벤트 (4.01-5.30)</p>
+                  </div>
+                  <!-- //이벤트 내용 -->
+                </div>
+                <div class="swiper-slide">
+                  <!-- 이벤트 내용 -->
+                  <div class="banner event3">
+                    <b>공지</b>
+                    <p>3 트래빗 거래소 오픈 이벤트 (4.01-5.30)3 트래빗 거래소 오픈 이벤트 (4.01-5.30)3 트래빗 거래소 오픈 이벤트 (4.01-5.30))</p>
+                  </div>
+                  <!-- //이벤트 내용 -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="main-cont3">
+          <div class="wrap">
+            <h2>트래빗 서비스만의<br /><span class="text-money">특징 3가지</span></h2>
+            <div class="cont3-group">
+              <div class="img">
+                <img src="../../assets/images/img_main3_4.png" />
+              </div>
+              <div class="txt">
+                <b>빠르고 안정적인 거래 시스템</b>
+                <p>인터넷 뱅킹 시스템, 보안 솔루션, 게임 서비스 플랫폼 등을<br />
+                개발했던 우수한 개발진들이 모여 트래빗만의<br />
+                특화된 거래 엔진을 개발했습니다.
+                </p>
+              </div>
+            </div>
+            <div class="cont3-group">
+              <div class="img">
+                <img src="../../assets/images/img_main3_5.png" />
+              </div>
+              <div class="txt">
+                <b>실시간 모니터링 시스템</b>
+                <p>
+                  고객 계정에 대한 이상 접속 시도 및 <br />이상 거래 패턴에 대한 실시간 모니터링을 통해<br />이상행위를 신속하게 감지하여 피해를 방지합니다.
+                </p>
+              </div>
+            </div>
+            <div class="cont3-group">
+              <div class="img">
+                <img src="../../assets/images/img_main3_6.png" />
+              </div>
+              <div class="txt">
+                <b>최고의 보안 수준 적용</b>
+                <p>
+                  개인 정보 데이터 암호화를 기본으로 <br />네트워크 통제를 통한 물리적 접근 제어와 <br />지갑 정보에 대한 3중 보안 장치를 구축했습니다.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="main-cont4">
+          <div class="wrap">
+            <div class="txt">
+              <h2>
+                트래빗은<br /><span class="text-money">Block-chain 기술</span>에 가치를<br /> 부여합니다.
+              </h2>
+              <p>암호화폐 거래소를 운영하고 가치 평가 기술을 개발하여 <br />Block-chain 기술의 가치가 암호화폐의 가치에 정당하게 반영되게 합니다.</p>
+            </div>
+            <div class="img">
+              <img src="../../assets/images/img_main4.png" />
+            </div>
+          </div>
+        </div>
+
+        <div class="main-cont5">
+          <div class="wrap">
+            <div class="txt">
+              <h2>
+                트래빗 <span class="text-money">보안시스템</span>
+              </h2>
+              <div class="txt1">
+                <b class="text-money">네트워크 통제</b>
+                <p>
+                  내/외부 침입행위에 대한 실시간 탐지 및 침해대응을 <br />전문 보안 업체를 통하여 수행하고, 인가자/비인가자를 구분하여<br />접근 통제를 시행하여 강화된 보호적용 망 분리를 구축하였습니다.
+                </p>
+              </div>
+              <div class="txt2">
+                <b class="text-money">내부 2중보안 장치</b>
+                <p>
+                  인터넷과 차단된 콜드 월렛을 이용하여 거래소 내부 보안을 2중화하여, <br />외부 침입에 의한 보안사고 예방 뿐만 아니라 내부자에 의한<br />보안사고까지 방지하는 강력한 보안 수단을 구축하였습니다.
+                </p>
+              </div>
+              <div class="txt3">
+                <b class="text-money">실시간 모니터링</b>
+                <p>
+                  <span class="text-money">① 소프트웨어 모니터링</span><br />
+                  <span class="pl17">실시간으로 소프트웨어 로그는 상시 모니터링되고,<br />이상현상이 감지될 경우 각 담당자에게 실시간 통지됩니다.</span><br /><br />
+                  <span class="text-money">② 하드웨어 모니터링</span><br />
+                  <span class="pl17">각 장비는 각종 지표가 실시간으로 수집되며, 시각화된 정보를 이용한<br />얼럿 메카니즘이 동작하여 주의가 필요한 상황이 발생할 경우 즉시 인지됩니다.</span>
+                </p>
+              </div>
+            </div>
+            <div class="img">
+              <img src="../../assets/images/img_main5_1.png" />
+            </div>
+          </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- //container -->
+
+      <!-- footer -->
+      <footer class="footer">
+        <div class="f-wrap">
+          <div class="f-top">
+            <div class="f-top-link">
+              <ul>
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">공지사항</a></li>
+                <li><a href="#">이용안내</a></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="f-info">
+            <div class="f-info-mob">
+              <ul>
+                 <li>주식회사 트래빗</li>
+                 <li>대표자 : 송광일</li>
+                 <li>개인정보관리책임자 : 송광일</li>
+              </ul>
+              <address class="f-adr">주소 : 서울특별시 마포구 월드컵북로 402, 1201호(상암동, 케이지아이티센터) </address>
+              <ul>
+                 <li>사업자등록번호 : 680-87-00919</li>
+                 <li>통신판매번호 : 제2018-서울마포-0377호</li>
+                 <li>고객센터 : 1600-5433</li>
+                 <li>운영시간 : 평일 09:00 ~ 18:00</li>
+                 <li>문의 : <a href="mailto:cs@trebit.com">cs@trebit.com</a></li>
+              </ul>
+              <div class="f-cpr">
+                <p>Copyright ⓒ2018 TREBIT All Right Reserved.</p>
+              </div>
+            </div>
+            <div class="f-info-pc">
+              <div class="f-logo">
+                <span>trebit</span>
+              </div>
+              <div class="f-info-adr">
+                <ul>
+                   <li>주식회사 트래빗</li>
+                   <li>대표자 : 송광일</li>
+                   <li>개인정보관리책임자 : 송광일</li>
+                   <li>사업자등록번호 : 680-87-00919</li>
+                   <li>통신판매번호 : 제2018-서울마포-0377호</li>
+                   <li>주소 : 서울특별시 마포구 월드컵북로 402, 1201호(상암동, 케이지아이티센터)</li>
+                </ul>
+                <div class="f-cpr">
+                  <p>Copyright ⓒ2018 TREBIT All Right Reserved.</p>
+                </div>
+              </div>
+              <div class="f-cs">
+                <ul>
+                  <li>고객센터 : <b>1600-5433</b></li>
+                  <li>운영시간 : 평일 09:00 ~ 18:00</li>
+                  <li>문의 : <a href="mailto:cs@trebit.com">cs@trebit.com</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- //footer -->
+    </div>
+
+  </body>
+</html>

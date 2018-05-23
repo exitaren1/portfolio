@@ -1,0 +1,350 @@
+@charset "UTF-8";
+/* break*/
+.container-break .tab-nav {
+	margin-bottom: 30px;
+}
+.container-break .tab-nav > ul > li {
+	width: 200px;
+}
+.container-break .detail_inout{
+	width: 100%;
+	overflow: hidden;
+	max-width: 1078px;
+	margin: 0 auto;
+}
+.detail_inout .content .panel .panel-body .table-responsive > table > tbody > tr > td > .table-responsive{
+	max-height: 449px;
+}
+.breakdown{
+	width: 100%;
+	max-width: 1080px;
+	margin: 0 auto;
+}
+.breakdown-board .total{
+	width: 100%;
+  padding: 20px 37px;
+}
+.breakdown-board .money{
+	float: left;
+  width: 100%;
+}
+.breakdown-board .rate{
+	float: left;
+    width: 100%;
+}
+.breakdown-board .total label{
+	display: block;
+	margin-bottom: 5px;
+	font-size: 18px;
+	font-weight: 500;
+	color: #000000;
+}
+.breakdown-board .total span{
+	font-size: 14px;
+	color: #888;
+}
+.breakdown-board .total span strong{
+	font-size: 24px;
+  font-weight: 600;
+}
+.breakdown-board .money > div, .breakdown-board .rate > div{
+	overflow: hidden;
+	padding: 20px 40px;
+	border-top: solid 1px #dce0e3;
+}
+.breakdown-board .money > div > label, .breakdown-board .rate > div > label{
+	float: left;
+	font-size: 14px;
+}
+.breakdown-board .money > div > span, .breakdown-board .rate > div > span{
+	float: right;
+	text-align: right;
+	font-size: 14px;
+	color: #888;
+}
+.breakdown-board .money > div > span > b, .breakdown-board .rate > div >span > b{
+	font-size: 14px;
+	font-weight: 600;
+}
+.breakdown-table .table-responsive .table{
+	min-width: 800px;
+}
+.breakdown-table .table-responsive .table tbody tr td button{
+	margin-right: 5px;
+	padding: 5px 12px;
+	font-size: 14px;
+}
+.breakdown-table .table-responsive .table tbody tr td button:last-child{
+	margin-right: 0;
+}
+.breakdown-table .table-responsive .table tbody tr td span.breakdown-cell{
+  text-align: right;
+  display: block;
+}
+.breakdown-table .table-responsive .table tbody tr td.ratio p{
+	font-weight: 500;
+  text-align: right;
+}
+.breakdown-table .table-responsive .table thead tr th:first-child,
+.breakdown-table .table-responsive .table tbody tr td:first-child .table-responsive .table tbody tr td:first-child{
+	padding-left: 10px;
+}
+.breakdown-table .table-responsive .table thead tr th:last-child,
+.breakdown-table .table-responsive .table tbody tr td:first-child .table-responsive .table tbody tr td:last-child{
+	padding-right: 4%;
+}
+.money-type {
+	padding-left: 4% !important;
+	text-align: left;
+}
+.money-type i{
+	display: inline-block;
+	overflow: hidden;
+	width: 27px;
+	height: 27px;
+	margin-right: 25px;
+	margin-bottom: 2px;
+	border-radius: 100px;
+	background-size: 100%;
+	vertical-align: baseline;
+}
+.money-type .money-name{
+	display: inline-block;
+}
+.money-type .money-name b,
+.money-type .money-name span {
+	display: block;
+	width: 100%;
+	text-align: left;
+}
+.money-type .money-name b{
+	padding-bottom: 5px;
+	font-size: 14px;
+}
+/*   입출금내역   */
+.table tbody tr.detail-bd{
+    cursor:default;
+}
+.table tbody tr.detail-bd th{
+    font-weight: 500;
+}
+.table tbody tr.detail-bd td{
+    color: blue;
+    text-decoration: underline;
+}
+/*   미체결내역   */
+.table tbody td button.btn{
+    padding: 4px 8px;
+    border-radius: 12px;
+}
+/* 이전 */
+.container-break .content .panel .panel-heading {
+	border-bottom: 0;
+}
+.container-break .content .panel .panel-body {
+	padding: 0;
+	font-size: 11px;
+}
+.container-break .content .panel .panel-body .form-group {
+	position: relative;
+	margin-bottom: 10px;
+}
+.container-break .content .panel .panel-body .form-group:last-child {
+	margin-bottom: 0;
+}
+.container-break .content .panel .panel-body .form-group label {
+	margin-bottom: 5px;
+}
+.qr_code {
+	width: 115px;
+	height: 115px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	border: 1px dotted #dce0e3;
+}
+.qr_code img, .qr_code div img {
+	width: 100%;
+	height: auto;
+}
+.container-break .content .panel .panel-footer {
+	padding: 20px 30px;
+	border-top: 1px solid #f7f9fb;
+}
+.container-break .content .panel .panel-footer .form-break-total {
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.container-break .content .panel .panel-footer .form-break-total .pull-left {
+	width: 40%;
+	padding-top: 20px;
+}
+.container-break .content .panel .panel-footer .form-break-total .pull-left b {
+	font-size: 12px;
+}
+.container-break .content .panel .panel-footer .form-break-total .pull-right {
+	width: 60%;
+}
+.container-break .content .panel .panel-footer .form-break-total .pull-right .text-info,
+.container-break .content .panel .panel-footer .form-break-total .pull-right strong {
+	display: block;;
+	width: 100%;
+}
+.container-break .content .panel .panel-footer .form-break-total .pull-right .text-info {
+	padding-bottom: 5px;
+	font-size: 10px;
+}
+.container-break .content .panel .panel-footer .form-break-total .pull-right strong {
+	font-size: 18px;
+}
+.container-break .content .panel .panel-footer .form-break-total .pull-right strong small {
+	font-size: 10px;
+}
+.container-break .content .panel .panel-footer .btn {
+	font-size: 12px;
+}
+.container-break .content .bg-info {
+	font-size: 10px;
+	padding: 20px 40px;
+}
+.container-break .content .bg-info hr {
+	margin: 12px 0;
+	border-top: 1px solid #dce0e3;
+}
+.container-break .content .break-warning strong {
+	display: inline-block;
+	font-size: 12px;
+}
+.container-break .content .break-warning p,
+.container-break .content .break-warning dl {
+	margin-top: 20px;
+}
+.container-break .content .break-warning dl dt {
+	font-weight: 600;
+}
+.form-break .form-group .form-text {
+	float: left;
+	width: 50%;
+}
+.form-break .form-group .form-text label {
+	width: 100%;
+}
+.form-break .form-group .form-text b {
+	width: 100%;
+	font-size: 12px;
+}
+.form-break .form-group label {
+	width: 100%;
+}
+.form-break .form-group label small {
+	font-size: 11px;
+}
+.input-group-txt {
+	color: #808e9c;
+	font-size: 12px;
+}
+.income-pr .input-group-txt {
+	position: absolute;
+	top: 28px;
+	right: 15px;
+	z-index: 10;
+}
+.outcome-pr .input-group-txt {
+	position: absolute;
+	top: 9px;
+	right: 60px;
+	z-index: 10;
+}
+.outcome-ad  .input-group-txt {
+	position: absolute;
+	top: 26px;
+	right: 10px;
+	z-index: 10;
+}
+@media (min-width: 640px) {
+	.qr_code {width: 230px; height: 230px; margin: 0 auto; margin-bottom: 30px;}
+	.main-wrap .container-main .main-cont1 {background-position-x: -130px;}
+}
+@media (min-width: 768px) {
+	.container-break{
+		width: 93.75%;
+		max-width: 1080px;
+		margin: 0 auto;
+	}
+	.container-break .content-wait .panel .panel-heading{padding:25px 30px;}
+	.container-break .content-wait .panel .panel-heading small{padding-top:5px;}
+	.container-break .content-wait .panel .panel-body{padding: 0;}
+	.container-break .content .panel .panel-body .form-break .form-group {float: left;width: 50%;}
+	.container-break .content .panel .panel-body .form-break .form-group:nth-child(odd) {padding-right: 5px;}
+	.container-break .content .panel .panel-body .form-break .form-group:nth-child(even) {padding-left: 5px;}
+	.container-break .content .panel .panel-body .form-break .form-group .form-text b {display: inline-block; font-size: 18px;}
+	.container-break .content .panel .panel-body .form-group .input-group .form-control + .input-group-btn button {font-size: 14px; padding: 10px 10px 12px 10px;}
+	.container-break .content .panel .panel-body .form-group label {margin-bottom: 10px;}
+	.container-break .content .panel .panel-footer {padding-top: 0; border-top: 0;}
+	.container-break .content .panel .panel-footer .form-break-total .pull-left b {font-size: 18px;}
+	.container-break .content .panel .panel-footer .form-break-total .pull-right .text-info {font-size: 12px;}
+	.container-break .content .panel .panel-footer .form-break-total .pull-right strong {font-size: 24px;}
+	.container-break .content .panel .panel-footer .form-break-total .pull-right strong small {font-size: 18px;}
+	.container-break .content .panel .panel-footer .btn {font-size: 18px; padding: 11px 0 14px 0;}
+	.container-break .content .bg-info {padding: 30px 40px 40px 40px;}
+	.container-break .content .bg-info .form-break-info {padding-top: 10px; font-size: 18px;}
+	.container-break .content .bg-info .form-break-info hr {margin: 26px 0;}
+	.container-break .content .bg-info .form-break-info div {font-size: 18px;}
+	.container-break .content .bg-info .form-break-info div .pull-left {width: 35%;}
+	.container-break .content .break-warning {font-size: 14px;}
+	.container-break .content .break-warning strong {font-size: 18px;}
+	.container-break .income .content .panel .panel-body .form-group:first-child {width: 60%;}
+	.container-break .income .content .panel .panel-body .form-group:last-child {width: 40%;}
+	.container-break .income .content .panel .panel-body .form-group .input-group .form-control {padding: 4px 12px;}
+	.container-break .income .content .panel .panel-body .form-group .input-group .form-control + .input-group-btn button {padding: 8px 10px 9px 10px;}
+	.container-break .income .content .panel .panel-body .form-break .form-group .form-text b {padding-top: 6px;}
+	.container-break .income-bank .content .bg-info {padding-bottom: 48px;}
+	.container-break .income-qrcode .content .bg-info {padding-bottom: 170px;}
+	.container-break .income-qrcode .bg-info {padding-bottom: 48px;}
+	.container-break .income .form-break .form-group .form-text:first-child {width: 35%;}
+	.container-break .income .form-break .form-group .form-text:nth-child(2) {width: 65%;}
+	.container-break .outcome .content .panel .panel-body .form-break .form-group {float: none; width: 100%;}
+	.container-break .outcome .content .panel .panel-body .form-break .form-group .form-text b {font-size: 24px;}
+	.container-break.outcome-bank .content .bg-info {padding-bottom: 55px;}
+	.input-group-txt {font-size: 14px;}
+	.outcome-pr .input-group-txt {top: 11px; font-size: 14px;}
+	.outcome-ad .input-group-txt {top: 35px;}
+	.income-pr .input-group-txt {top: 38px;}
+	.outcome-pr .input-group-btn button {height: 40px;padding: 10px 10px 12px 10px;}
+	.detail_inout .content .panel .panel-body .table-responsive > table > tbody > tr > td > .table-responsive{
+		max-height: 509px;
+	}
+}
+@media (min-width: 1080px){
+	.breakdown-board .total{
+		float: left;
+		width: 40%;
+		padding: 48px 50px;
+	}
+	.breakdown-board .total label{
+		display: block;
+		margin-bottom: 10px;
+		font-size: 20px;
+		font-weight: 500;
+		color: #888;
+	}
+	.breakdown-board .total span strong{
+		font-size: 33px;
+	}
+  .breakdown-board .money{width: 30%;}
+  .breakdown-board .rate{width: 30%;}
+  .breakdown-board .money > div:first-child, .breakdown-board .rate > div:first-child{
+		border-top: 0;
+	}
+  .breakdown-board .money > div, .breakdown-board .rate > div{
+		padding: 34px 30px;
+		border-left: solid 1px #dce0e3;
+	}
+	.breakdown-board .money > div > label, .breakdown-board .rate > div > label{
+		padding-top: 1px;
+		font-size: 16px;
+		color: #888;
+	}
+	.breakdown-board .money > div > span > b, .breakdown-board .rate > div >span > b{
+		font-size: 18px;
+	}
+}

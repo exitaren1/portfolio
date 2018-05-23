@@ -1,0 +1,610 @@
+@charset "UTF-8";
+.table-responsive .table{
+	min-width: 0;
+}
+/* modal */
+.modal-trade{
+	margin: 0 30px;
+}
+.modal-trade h5{
+	font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  color: #000;
+}
+.modal-trade .detail div{
+	overflow: hidden;
+  width: 100%;
+  padding-bottom: 10px;
+}
+.modal-trade .detail div label{
+	float: left;
+}
+.modal-trade .detail div span{
+	float: right;
+	text-align: right;
+}
+.modal-trade .detail .total{
+	padding-top: 20px;
+	border-top: solid 1px #f1f1f1;
+  color: #000;
+}
+.header .h-gnb{
+	border-bottom: solid 1px #dde1e4;
+}
+/* container */
+.container-trade .content{
+	margin-bottom: 0;
+}
+/* orderbook */
+.orderbook {
+	padding: 10px 20px;
+	border-top: 0;
+}
+.orderbook .panel {
+	background: none;
+}
+.orderbook .panel .panel-heading{
+	display: none;
+}
+.orderbook .panel .panel-body,
+.orderbook .panel .panel-footer {
+	display: block;
+	padding: 0;
+	border-bottom: 0;
+	font-size: 12px;
+}
+.orderbook .panel .panel-body strong {
+	font-size: 18px;
+	font-weight: 500;
+}
+.orderbook .panel .panel-footer {
+	padding-top: 5px;
+	border-top: 0;
+	color: #666;
+}
+.orderbook .panel .panel-footer b {
+	font-weight: 400;
+}
+.orderbook .panel .panel-footer b small{
+	font-size: 14px;
+  vertical-align: middle;
+}
+/* orderbook-table */
+.orderbook-table{
+	margin-bottom: 0 !important;
+}
+.orderbook-table .panel .panel-heading {
+	display: none;
+}
+.orderbook-table .panel .panel-body {
+	padding: 0;
+}
+.orderbook-table .table-bordered thead tr th,
+.orderbook-table .table-bordered tbody tr th,
+.orderbook-table .table-bordered tbody tr td,
+.orderbook-table .table-bordered tfoot tr th,
+.orderbook-table .table-bordered tfoot tr td{
+	height: 35px;
+	padding: 0 15px;
+	font-size: 12px;
+	font-weight: 300;
+	color: #000;
+}
+.orderbook-table .table-bordered tbody tr th{
+	text-align: right;
+}
+.orderbook-table .table-bordered tbody tr td:last-child{
+	text-align: left;
+}
+.orderbook-table .table-bordered tbody.sell tr:last-child th,
+.orderbook-table .table-bordered tbody.sell tr:last-child td{
+	border-bottom: solid 1px #808e9c;
+}
+.orderbook-table .table-bordered tbody.buy tr:last-child th,
+.orderbook-table .table-bordered tbody.buy tr:last-child td{
+	border-bottom: solid 1px #c5d1dd;
+}
+.orderbook-table .table-bordered tbody.sell tr td:nth-child(2),
+.orderbook-table .table-bordered tbody.buy tr td:nth-child(2){
+	font-weight: 500;
+}
+.orderbook-table .table-bordered tbody.sell tr td:nth-child(2){
+	background-color: #f2f8ff;
+}
+.orderbook-table .table-bordered tbody.buy tr td:nth-child(2){
+	background-color: #fff6fa;
+}
+.orderbook-table .table-bordered tfoot tr th,
+.orderbook-table .table-bordered tfoot tr td{
+	padding: 14px 15px;
+	font-size: 13px;
+}
+.orderbook-table .table-bordered tfoot tr th:first-child{
+	text-align: right;
+}
+.orderbook-table .table-bordered tfoot tr td:last-child{
+	text-align: left;
+}
+.orderbook-table .table-bordered tfoot tr td:nth-child(2) b{
+	font-weight: 500;
+}
+.orderbook-table .table-bordered tbody tr td:nth-child(2){
+	cursor: pointer;
+}
+.orderbook-table .table-bordered tbody tr.check-price td:nth-child(2){
+	border: solid 1px #000 !important;
+}
+/* chart */
+.trade-chart {
+	display: none;
+}
+/* trade form */
+.trade-form-wrap{
+	position: relative;
+	height: 380px;
+	margin-bottom: 0 !important;
+}
+.trade-form-wrap .trade-form {
+	overflow: hidden;
+}
+.trade-form-wrap .trade-form .panel {
+	height: 378px;
+	margin: 0 auto;
+}
+.trade-form-wrap .trade-form .panel .panel-heading{
+	padding: 30px 20px 5px 20px;
+	border-bottom: 0;
+}
+.trade-form-wrap .trade-form .panel .panel-heading .panel-title h2{
+	display: inline-block;
+	font-weight: 600;
+	vertical-align: middle;
+}
+.trade-form-wrap .trade-form .panel .panel-heading .panel-title h2 + button{
+	margin-left: 10px;
+	font-size: 14px;
+	font-weight: 300;
+}
+.trade-form-wrap .trade-form .panel .panel-footer {
+	padding: 0 10px 5px 10px;
+	border-top: 0;
+}
+.trade-form-wrap .trade-form .panel .panel-body {
+	padding: 15px 20px;
+}
+.trade-form-wrap .trade-form .panel .panel-body .form-group{
+	width: 100%;
+	margin-bottom: 10px;overflow: hidden;
+}
+.trade-form-wrap .trade-form .panel-body .form-group:last-child {
+	margin-bottom: 0;
+}
+.trade-form-wrap .trade-form .panel .panel-body .form-group label{
+	float: left;
+	width: 30%;
+	padding-top: 11px;
+	font-size: 12px;
+  color: #555555;
+}
+.trade-form-wrap .trade-form .panel .panel-body .form-group label + div {
+	float: right;
+	width: 70%;
+	font-size: 12px;
+	color: #555555;
+}
+.trade-form-wrap .trade-form .panel .panel-body .form-group label + div b {
+	font-size: 10px;
+	font-weight: 400;
+	color: #808e9c;
+}
+.trade-form-wrap .trade-form .panel .panel-body .form-group .input-group .btn{
+	font-size: 12px;
+	border: solid 1px #bbb;
+	background-color: #fff;
+	color: #333;
+	font-weight:  600;
+	padding: 9px 10px 10px 10px;
+	height: 40px;
+}
+.trade-form-wrap .trade-form .form-control {
+	height: 40px;
+	padding: 6px 12px;
+	border: solid 1px #bbb;
+	font-size: 14px;
+}
+.trade-form-wrap .trade-form .form-group .input-group-addon {
+	font-size: 14px;
+}
+.trade-form-wrap .trade-form .panel .panel-body .form-group.amount{
+	margin-bottom: 15px;
+}
+.trade-form-wrap .trade-form .panel .panel-body .form-group.amount label{
+	padding-top: 2px;
+}
+.trade-form-wrap .trade-form .panel .panel-body .form-group.amount .text-right span{
+	font-size: 14px;
+	font-weight: 400;
+	color: #000;
+}
+.trade-form-wrap .trade-form .panel .panel-body .form-group.btc .input-group-btn{
+	width: 70px;
+}
+.trade-form-wrap .trade-form .panel .panel-body .form-group.krw .input-group-btn button{
+	width: 35px;
+	padding: 5px 0;
+	font-size: 16px;
+	font-weight: 600;
+	border-left: 0;
+}
+.trade-form-wrap .trade-form .panel .panel-body .form-group.krw .input-group-btn:last-child button{
+	width: 36px;
+	border-left: solid 1px #bbb;
+}
+.trade-form-wrap .trade-form .trade-form-buy {
+	float: left;
+	width: 50%;
+	border-right: solid 1px #dce0e3;
+}
+.trade-form-wrap .trade-form .trade-form-sell {
+	float: right;
+	width: 50%;
+}
+.trade-form-wrap .trade-form .trade-form-buy .panel .panel-heading .panel-title h2{
+	color: #333;
+}
+.trade-form-wrap .trade-form .trade-form-sell .panel .panel-heading .panel-title h2{
+	color: #333;
+}
+.trade-form-wrap .trade-form .panel .panel-footer .trade-form-total {
+	overflow: hidden;
+	padding: 20px 10px;
+	padding-top: 0;
+}
+.trade-form-wrap .trade-form .panel .panel-footer .trade-form-total .pull-right {
+	text-align: right;
+}
+.trade-form-wrap .trade-form .panel .panel-footer .trade-form-total div span {
+	font-size: 14px;
+	font-weight: 300;
+	color: #979797;
+}
+.trade-form-wrap .trade-form .panel .panel-footer .trade-form-total .total label{
+	font-size: 18px;
+	font-weight: 500;
+}
+.trade-form-wrap .trade-form .panel .panel-footer .trade-form-total strong {
+	font-size: 18px;
+	margin-right: 5px;
+}
+.trade-form-wrap .trade-form .panel .panel-footer .trade-form-total .clear{
+	display: inline-block;
+	width: 100%;
+	margin-top: 5px;
+}
+.trade-form-wrap .trade-form .panel .panel-footer .trade-form-total .clear small {
+	font-size: 12px;
+	color: #979797;
+}
+.trade-form-wrap .trade-form .trade-form-sell .panel-footer .trade-form-btn,
+.trade-form-wrap .trade-form .trade-form-buy .panel-footer .trade-form-btn {
+	width: 100%;
+	padding: 0;
+}
+.trade-form-wrap .trade-form .trade-form-sell .panel-footer .trade-form-btn button,
+.trade-form-wrap .trade-form .trade-form-buy .panel-footer .trade-form-btn button {
+	display: inline-block;
+	padding: 10px 16px 11px 16px;
+	font-size: 16px;
+	font-weight: 500;
+}
+.trade-form-wrap .trade-form .trade-form-sell .panel-footer .trade-form-btn .btn-default,
+.trade-form-wrap .trade-form .trade-form-buy .panel-footer .trade-form-btn .btn-default {
+	width: 33%;
+	height: 45px;
+	font-size: 14px;
+	font-weight: 400;
+	color: #333;
+	background-color: #eeeeee;
+  border: solid 1px #cfcfcf;
+}
+.trade-form-wrap .trade-form .trade-form-sell .panel-footer .trade-form-btn .btn-primary,
+.trade-form-wrap .trade-form .trade-form-buy .panel-footer .trade-form-btn .btn-warning {
+	float: right;
+	width: 65%;
+	height: 45px;
+}
+.trade-no {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+}
+.trade-no .panel .panel-heading {
+	position: relative;
+	padding: 0;
+	width: 100%;
+	height: 45px;
+	border-top: solid 1px #bababa;
+	border-bottom: 0;
+	background-color: #fff;
+	text-align: center;
+}
+.trade-no .panel .panel-heading .panel-title {
+	padding-top: 13px;
+}
+.trade-no .panel .panel-heading .panel-title h3 {
+	font-size: 14px;
+	font-weight: 500;
+	color: #666;
+}
+.trade-no .panel .panel-heading .panel-title h3 span{
+	display: inline-block;
+	font-weight: 300;
+}
+.trade-no .panel .panel-heading button {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 15px;
+	font-size: 12px;
+	color: #4f4f4f;
+	text-align: left;
+	line-height: 1.2;
+}
+.trade-no .panel .panel-heading button i{
+	margin-left: 5px;
+}
+.trade-no .panel .panel-body {
+	padding: 0;
+}
+.trade-no > .trade-table > .panel-body {
+	height: 265px;
+}
+.trade-no .trade-table {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: #fff;
+	z-index: 10;
+}
+.trade-no .trade-table .table-bordered thead tr th{
+	padding: 12px 0;
+	border-top: solid 1px #e7ebf0;
+}
+.trade-no .trade-table .table-bordered tbody tr td {
+	vertical-align: middle;
+}
+.trade-no .trade-table .table-bordered > tbody > tr > td {
+	padding: 0;
+}
+.trade-no .trade-table .table-bordered > tbody > tr > td > .table-responsive{
+	max-height: 225px;
+	overflow: hidden;
+	overflow-y: auto;
+}
+.trade-no .trade-table .table-bordered > tbody > tr > td > .table-responsive > table > tbody > tr > td{
+	padding: 5px;
+	border-bottom: solid 1px #e7ebf0;
+}
+.trade-no .trade-table .table-bordered > tbody > tr > td > .table-responsive > table > tbody > tr > td > .btn-sm {
+	font-size: 9px;
+}
+.trade-no .trade-table .table-bordered > tbody > tr > td > .table-responsive > table > tbody > tr > td > .table-no-data{
+	padding: 90px 0;
+}
+.trade-no .close-time {
+	position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 20;
+  background-color: #fff;
+}
+.trade-no .close-time .close-time-info {
+	float: left;
+	width: 50%;
+	padding: 17px 30px;
+	background-color: #e9eef3;
+}
+.trade-no .close-time .close-time-info: first-child {
+	border-right: 1px solid #dce0e3;
+}
+.trade-no .close-time .close-login {
+	padding: 40px 0px;
+	font-size: 14px;
+	color: #808e9c;
+	text-align: center;
+	border-top: 1px solid #dce0e3;
+}
+.trade-board {
+	display: none;
+}
+.trade-board .panel .panel-heading {
+	padding: 10px 0;
+	width: 100%;
+	border-top: 1px solid #808e9c;
+	text-align: center;
+}
+.trade-board .panel .panel-heading .panel-title h3 {
+	font-size: 13px;
+	font-weight: 600;
+	color: #4b5b6a;
+}
+.trade-board .trade-board-con {
+	overflow: hidden;
+	padding: 16px 22px;
+	border-bottom: 1px solid #dce0e3;
+}
+.trade-board .trade-board-con:last-child {
+	border-bottom: 0;
+}
+.trade-board .trade-board-con span {
+	float: left;
+	padding-top: 3px;
+	font-size: 12px;
+	color: #666;
+}
+.trade-board .trade-board-con b {
+	display: inline-block;
+	float: right;
+	font-size: 18px;
+}
+.trade-board-list{
+	margin-bottom: 0 !important;
+}
+.trade-board-list .panel .panel-heading {
+	padding: 20px 0px 18px 16px;
+	width: 100%;
+	text-align: left;
+	border-bottom: solid 1px #e7e7e7;
+}
+.trade-board-list .panel .panel-heading .panel-title {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 16px;
+	font-weight: 600;
+	color: inherit;
+}
+.trade-board-list .panel .panel-body {
+	padding: 0;
+}
+.trade-board-list .table-bordered thead tr th,
+.trade-board-list .table-bordered tbody tr th,
+.trade-board-list .table-bordered tbody tr td{
+	height: 35px;
+	padding: 0px 10px;
+	text-align: right;
+}
+.trade-board-list .table-bordered thead tr th{
+	padding: 12px 10px;
+	font-size: 14px;
+}
+.trade-board-list .table-bordered tbody tr th{
+	font-weight: 500;
+}
+.trade-board-list .table-bordered tbody tr th,
+.trade-board-list .table-bordered tbody tr td{
+	font-size: 12px;
+}
+.trade-board-list .table-bordered tbody tr:last-child th{
+	border-bottom: 0;
+}
+.trade-board-list .table-bordered tbody tr td:last-child{
+	font-weight: 200;
+	color: #898a8a;
+}
+.table-no-data {
+	padding: 50px 0;
+	text-align: center;
+	vertical-align: middle;
+}
+@media (min-width: 768px) {
+	.panel .panel-heading .panel-title h2{
+		font-size: 20px;
+		color: #484848;
+	}
+	.container{
+		width: 100%;
+		padding: 0;
+		overflow: hidden;
+		overflow-x: auto;
+	}
+	.container-trade{
+		overflow: hidden;
+		min-width: 1600px;
+		max-width: 1920px;
+		margin: 0 auto;
+		padding: 30px 20px;
+	}
+	.container-trade-left, .container-trade-center,	.container-trade-right{
+		float: left;
+		padding-right: 5px;
+	  padding-left: 5px;
+	}
+	.container-trade-left{
+		width: 25%;
+		padding-left: 0;
+	}
+	.container-trade-center{
+		width: 50%;
+	}
+	.container-trade-right{
+		width: 25%;
+		padding-right: 0;
+	}
+	.container-trade .content{
+		margin-bottom: 10px;
+		border-top: solid 1px #dce0e3;
+	}
+	.orderbook {
+		padding: 27px 0 22px 35px;
+		height: 162px;
+	}
+	.orderbook .panel .panel-heading,
+	.orderbook .panel .panel-body,
+	.orderbook .panel .panel-footer {
+		display: block;
+		padding: 0;
+		border-bottom: 0;
+	}
+	.orderbook .panel .panel-heading .panel-title h2 {
+		font-weight: 600;
+		color: #000000;
+	}
+	.orderbook .panel .panel-heading .panel-title h2 small {
+		display: inline-block;
+	  padding-top: 3px;
+	  padding-left: 10px;
+	  font-size: 13px;
+	  vertical-align: top;
+	}
+	.orderbook .panel .panel-body {
+		padding: 15px 0 10px 0;
+		font-size: 12px;
+		font-weight: 600;
+	}
+	.orderbook .panel .panel-body strong {
+		font-size: 32px;
+		font-weight: 600;
+	}
+	.orderbook .panel .panel-footer {
+		padding: 0;
+		color: #666;
+		border-top: 0;
+	}
+	.orderbook .panel .panel-footer b {
+		padding-left: 15px;
+		font-size: 18px;
+		font-weight: 600;
+		vertical-align: sub;
+	}
+	.orderbook-table .panel .panel-heading {
+		display: block;
+		padding: 20px 0px 18px 16px;
+		border-bottom: solid 1px #c5d1dd;
+	}
+	.trade-chart {
+		display: block;
+		height: 380px;
+	}
+	.trade-form-wrap .trade-form .panel .panel-footer .trade-form-total label{
+		font-size: 17px;
+	}
+	.trade-form-wrap .trade-form .panel .panel-body .form-group.amount .text-right{
+		font-size: 12px;
+	}
+	.trade-form-wrap .trade-form .panel .panel-body .form-group label{
+		font-size: 14px;
+	}
+	.trade-board {
+		display: block;
+		margin: 20px 0;
+		margin-top: 0;
+		padding: 0;
+		font-size: 10px;
+	}
+}
